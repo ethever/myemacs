@@ -1,0 +1,93 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "mailer.js"
+      :pointmax 499
+      :fsize 530
+      :lastmodtime '(24196 9509 411306 506000)
+      :unmatched-syntax '((VAR 248 . 251) (FUNCTION 269 . 277) (PAREN_BLOCK 277 . 283) (VARIABLE 65 . 71) (BRACE_BLOCK 74 . 189) (SEMICOLON 189 . 190) (VARIABLE 191 . 196) (VARIABLE 197 . 208) (PAREN_BLOCK 237 . 245) (VARIABLE 23 . 33) (PAREN_BLOCK 43 . 57)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("setItem" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [501 504])
+                ("value" variable nil (reparse-symbol FormalParameterList) [506 511])
+                ("exprires" variable nil (reparse-symbol FormalParameterList) [513 521]))              ) nil [484 620])
+            ("getItem" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [641 644]))              ) nil [624 784])
+            ("hget" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [801 804])
+                ("subkey" variable nil (reparse-symbol FormalParameterList) [806 812]))              ) nil [787 961])
+            ("hgetall" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [980 983]))              ) nil [963 1131])
+            ("hdel" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [1147 1150]))              ) nil [1133 1289])
+            ("hmset" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [1306 1309])
+                ("object" variable nil (reparse-symbol FormalParameterList) [1311 1317]))              ) nil [1291 1465])
+            ("hmget" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [1482 1485])
+                ("subkeys" variable nil (reparse-symbol FormalParameterList) [1487 1494]))              ) nil [1467 1649])
+            ("exists" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [1668 1671]))              ) nil [1652 1812])
+            ("get" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [1828 1831]))              ) nil [1815 1971])
+            ("incrby" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [1989 1992])
+                ("num" variable nil (reparse-symbol FormalParameterList) [1994 1997]))              ) nil [1973 2137])
+            ("zadd" function (:arguments 
+              ( ("zkey" variable nil (reparse-symbol FormalParameterList) [2153 2157])
+                ("score" variable nil (reparse-symbol FormalParameterList) [2158 2163])
+                ("key" variable nil (reparse-symbol FormalParameterList) [2164 2167]))              ) nil [2139 2315])
+            ("zrangebyscore" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [2340 2343])
+                ("min" variable nil (reparse-symbol FormalParameterList) [2344 2347])
+                ("max" variable nil (reparse-symbol FormalParameterList) [2348 2351]))              ) nil [2317 2503])
+            ("zrange" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [2521 2524])
+                ("min" variable nil (reparse-symbol FormalParameterList) [2525 2528])
+                ("max" variable nil (reparse-symbol FormalParameterList) [2529 2532]))              ) nil [2505 2677]))          
+      :file "db-redis.js"
+      :pointmax 2871
+      :fsize 2912
+      :lastmodtime '(24266 40565 904216 532000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("secret" variable (:default-value "token_secret") nil [83 109])
+            ("verify" function (:arguments 
+              ( ("token" variable nil (reparse-symbol FormalParameterList) [144 149])
+                ("token_secret" variable nil (reparse-symbol FormalParameterList) [151 163]))              ) nil [128 320])
+            ("create" function (:arguments 
+              ( ("content" variable nil (reparse-symbol FormalParameterList) [355 362])
+                ("extra" variable nil (reparse-symbol FormalParameterList) [363 368]))              ) nil [339 596]))          
+      :file "token_tools.js"
+      :pointmax 655
+      :fsize 668
+      :lastmodtime '(24263 51407 218304 183000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("ak" variable (:default-value "\"vR9swnFpH08vxfpwXjnSYSGNLQvvCa06GrFadKUr\"") nil [79 131])
+            ("sk" variable (:default-value "\"r_SuVkJBJYtUztquUT3ktkE-3gpXvLOpXRnGZa0e\"") nil [132 184])
+            ("uploadToken" function (:arguments 
+              ( ("options" variable nil (reparse-symbol FormalParameterList) [251 258])
+                ("t_options" variable nil (reparse-symbol FormalParameterList) [259 268]))              ) nil [230 493])
+            ("downloadToken" function (:arguments 
+              ( ("options" variable nil (reparse-symbol FormalParameterList) [518 525])
+                ("t_options" variable nil (reparse-symbol FormalParameterList) [526 535]))              ) nil [495 558]))          
+      :file "qiniu.js"
+      :pointmax 617
+      :fsize 630
+      :lastmodtime '(24260 60698 571564 236000)
+      :unmatched-syntax nil))
+  :file "!root!test!web!server!tools!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

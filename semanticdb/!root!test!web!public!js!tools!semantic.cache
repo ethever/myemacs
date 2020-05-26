@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "wenku.js"
+      :pointmax 80
+      :fsize 79
+      :lastmodtime '(24205 15374 727724 979000)
+      :unmatched-syntax '((PAREN_BLOCK 77 . 79) (PAREN_BLOCK 1 . 77))))
+  :file "!root!test!web!public!js!tools!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

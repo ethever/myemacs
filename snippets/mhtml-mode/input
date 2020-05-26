@@ -1,0 +1,8 @@
+# key: input
+# name: input
+# --
+<div>
+  <label for="${1:name}">${2:Name:}</label>
+  <input type="${3:text}" value="input $1 here" id="$1"/>
+  $0
+</div>

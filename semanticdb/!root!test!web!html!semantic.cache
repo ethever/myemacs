@@ -1,0 +1,36 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("登录殇月空间" section nil nil [152 306])
+            ("登录" section nil nil [306 397])
+            ("登录" section (:members 
+              ( ("登录" section nil nil [471 742]))              ) nil [397 742]))          
+      :file "login.html"
+      :pointmax 742
+      :fsize 771
+      :lastmodtime '(24205 28702 936361 844000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("发布帖子" section nil nil [55 415])
+            ("完成" section nil nil [415 461])
+            ("完成" section nil nil [461 512])
+            ("完成" section nil nil [512 561])
+            ("完成" section nil nil [561 622])
+            ("完成" section nil nil [622 1208])
+            ("" section nil nil [1208 1313])
+            ("" section nil nil [1313 1400]))          
+      :file "post.html"
+      :pointmax 1400
+      :fsize 1489
+      :lastmodtime '(24267 56587 720657 520000)
+      :unmatched-syntax nil))
+  :file "!root!test!web!html!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

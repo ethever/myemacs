@@ -1,0 +1,69 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("\"\"\"Define names for all type symbols known in the standard interpreter.
+
+Types that are part of optional modules (e.g. array) are not listed.
+\"\"\"" code nil nil [1 146])
+            ("sys" include nil nil [147 157])
+            ("NoneType" variable nil nil [408 429])
+            ("TypeType" variable nil nil [430 445])
+            ("ObjectType" variable nil nil [446 465])
+            ("IntType" variable nil nil [467 480])
+            ("LongType" variable nil nil [481 496])
+            ("FloatType" variable nil nil [497 514])
+            ("BooleanType" variable nil nil [515 533])
+            ("try" code nil nil [534 592])
+            ("StringType" variable nil nil [593 609])
+            ("try" code nil nil [801 926])
+            ("BufferType" variable nil nil [927 946])
+            ("TupleType" variable nil nil [948 965])
+            ("ListType" variable nil nil [966 981])
+            ("DictType" variable nil nil [982 1014])
+            ("_f" function nil nil [1016 1031])
+            ("FunctionType" variable nil nil [1031 1054])
+            ("LambdaType" variable nil nil [1055 1086])
+            ("CodeType" variable nil nil [1118 1147])
+            ("_g" function nil nil [1149 1171])
+            ("GeneratorType" variable nil nil [1171 1197])
+            ("_C" type
+               (:members 
+                  ( ("_m" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1220 1224]))                          )
+                        (reparse-symbol indented_block_body) [1213 1232]))                  
+                :type "class")
+                nil [1199 1232])
+            ("ClassType" variable nil nil [1232 1252])
+            ("UnboundMethodType" variable nil nil [1253 1284])
+            ("_x" variable nil nil [1314 1323])
+            ("InstanceType" variable nil nil [1324 1347])
+            ("MethodType" variable nil nil [1348 1372])
+            ("BuiltinFunctionType" variable nil nil [1374 1405])
+            ("BuiltinMethodType" variable nil nil [1406 1441])
+            ("ModuleType" variable nil nil [1477 1499])
+            ("FileType" variable nil nil [1500 1515])
+            ("XRangeType" variable nil nil [1516 1535])
+            ("try" code nil nil [1537 1681])
+            ("SliceType" variable nil nil [1682 1699])
+            ("EllipsisType" variable nil nil [1700 1729])
+            ("DictProxyType" variable nil nil [1731 1770])
+            ("NotImplementedType" variable nil nil [1771 1812])
+            ("GetSetDescriptorType" variable nil nil [1866 1917])
+            ("MemberDescriptorType" variable nil nil [1918 1972])
+            ("del" code nil nil [1974 1997])
+            ("__all__" variable nil nil [2042 2094]))          
+      :file "types.py"
+      :pointmax 2095
+      :fsize 2094
+      :lastmodtime '(24100 46094 0 0)
+      :unmatched-syntax nil))
+  :file "!usr!lib!python2.7!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

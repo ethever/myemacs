@@ -1,0 +1,365 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__ASM_GENERIC_SOCKET_H" variable (:constant-flag t) nil [103 125])
+            ("linux/posix_types.h" include (:system-flag t) nil [127 157])
+            ("asm/sockios.h" include (:system-flag t) nil [158 182])
+            ("SOL_SOCKET" variable (:constant-flag t) nil [216 226])
+            ("SO_DEBUG" variable (:constant-flag t) nil [238 246])
+            ("SO_REUSEADDR" variable (:constant-flag t) nil [257 269])
+            ("SO_TYPE" variable (:constant-flag t) nil [280 287])
+            ("SO_ERROR" variable (:constant-flag t) nil [299 307])
+            ("SO_DONTROUTE" variable (:constant-flag t) nil [318 330])
+            ("SO_BROADCAST" variable (:constant-flag t) nil [341 353])
+            ("SO_SNDBUF" variable (:constant-flag t) nil [364 373])
+            ("SO_RCVBUF" variable (:constant-flag t) nil [384 393])
+            ("SO_SNDBUFFORCE" variable (:constant-flag t) nil [404 418])
+            ("SO_RCVBUFFORCE" variable (:constant-flag t) nil [430 444])
+            ("SO_KEEPALIVE" variable (:constant-flag t) nil [456 468])
+            ("SO_OOBINLINE" variable (:constant-flag t) nil [479 491])
+            ("SO_NO_CHECK" variable (:constant-flag t) nil [503 514])
+            ("SO_PRIORITY" variable (:constant-flag t) nil [526 537])
+            ("SO_LINGER" variable (:constant-flag t) nil [549 558])
+            ("SO_BSDCOMPAT" variable (:constant-flag t) nil [570 582])
+            ("SO_REUSEPORT" variable (:constant-flag t) nil [594 606])
+            ("SO_PASSCRED" variable (:constant-flag t) nil [674 685])
+            ("SO_PEERCRED" variable (:constant-flag t) nil [697 708])
+            ("SO_RCVLOWAT" variable (:constant-flag t) nil [720 731])
+            ("SO_SNDLOWAT" variable (:constant-flag t) nil [743 754])
+            ("SO_RCVTIMEO_OLD" variable (:constant-flag t) nil [766 781])
+            ("SO_SNDTIMEO_OLD" variable (:constant-flag t) nil [793 808])
+            ("SO_SECURITY_AUTHENTICATION" variable (:constant-flag t) nil [897 923])
+            ("SO_SECURITY_ENCRYPTION_TRANSPORT" variable (:constant-flag t) nil [936 968])
+            ("SO_SECURITY_ENCRYPTION_NETWORK" variable (:constant-flag t) nil [980 1010])
+            ("SO_BINDTODEVICE" variable (:constant-flag t) nil [1024 1039])
+            ("SO_ATTACH_FILTER" variable (:constant-flag t) nil [1075 1091])
+            ("SO_DETACH_FILTER" variable (:constant-flag t) nil [1103 1119])
+            ("SO_GET_FILTER" variable (:constant-flag t) nil [1131 1144])
+            ("SO_PEERNAME" variable (:constant-flag t) nil [1172 1183])
+            ("SO_ACCEPTCONN" variable (:constant-flag t) nil [1197 1210])
+            ("SO_PEERSEC" variable (:constant-flag t) nil [1224 1234])
+            ("SO_PASSSEC" variable (:constant-flag t) nil [1247 1257])
+            ("SO_MARK" variable (:constant-flag t) nil [1271 1278])
+            ("SO_PROTOCOL" variable (:constant-flag t) nil [1293 1304])
+            ("SO_DOMAIN" variable (:constant-flag t) nil [1317 1326])
+            ("SO_RXQ_OVFL" variable (:constant-flag t) nil [1340 1351])
+            ("SO_WIFI_STATUS" variable (:constant-flag t) nil [1376 1390])
+            ("SCM_WIFI_STATUS" variable (:constant-flag t) nil [1403 1418])
+            ("SO_PEEK_OFF" variable (:constant-flag t) nil [1442 1453])
+            ("SO_NOFCS" variable (:constant-flag t) nil [1534 1542])
+            ("SO_LOCK_FILTER" variable (:constant-flag t) nil [1556 1570])
+            ("SO_SELECT_ERR_QUEUE" variable (:constant-flag t) nil [1584 1603])
+            ("SO_BUSY_POLL" variable (:constant-flag t) nil [1616 1628])
+            ("SO_MAX_PACING_RATE" variable (:constant-flag t) nil [1642 1660])
+            ("SO_BPF_EXTENSIONS" variable (:constant-flag t) nil [1673 1690])
+            ("SO_INCOMING_CPU" variable (:constant-flag t) nil [1703 1718])
+            ("SO_ATTACH_BPF" variable (:constant-flag t) nil [1732 1745])
+            ("SO_DETACH_BPF" variable (:constant-flag t) nil [1758 1771])
+            ("SO_ATTACH_REUSEPORT_CBPF" variable (:constant-flag t) nil [1799 1823])
+            ("SO_ATTACH_REUSEPORT_EBPF" variable (:constant-flag t) nil [1835 1859])
+            ("SO_CNX_ADVICE" variable (:constant-flag t) nil [1872 1885])
+            ("SCM_TIMESTAMPING_OPT_STATS" variable (:constant-flag t) nil [1899 1925])
+            ("SO_MEMINFO" variable (:constant-flag t) nil [1938 1948])
+            ("SO_INCOMING_NAPI_ID" variable (:constant-flag t) nil [1962 1981])
+            ("SO_COOKIE" variable (:constant-flag t) nil [1994 2003])
+            ("SCM_TIMESTAMPING_PKTINFO" variable (:constant-flag t) nil [2017 2041])
+            ("SO_PEERGROUPS" variable (:constant-flag t) nil [2054 2067])
+            ("SO_ZEROCOPY" variable (:constant-flag t) nil [2081 2092])
+            ("SO_TXTIME" variable (:constant-flag t) nil [2106 2115])
+            ("SCM_TXTIME" variable (:constant-flag t) nil [2128 2138])
+            ("SO_BINDTOIFINDEX" variable (:constant-flag t) nil [2159 2175])
+            ("SO_TIMESTAMP_OLD" variable (:constant-flag t) nil [2188 2204])
+            ("SO_TIMESTAMPNS_OLD" variable (:constant-flag t) nil [2223 2241])
+            ("SO_TIMESTAMPING_OLD" variable (:constant-flag t) nil [2258 2277])
+            ("SO_TIMESTAMP_NEW" variable (:constant-flag t) nil [2294 2310])
+            ("SO_TIMESTAMPNS_NEW" variable (:constant-flag t) nil [2329 2347])
+            ("SO_TIMESTAMPING_NEW" variable (:constant-flag t) nil [2364 2383])
+            ("SO_RCVTIMEO_NEW" variable (:constant-flag t) nil [2400 2415])
+            ("SO_SNDTIMEO_NEW" variable (:constant-flag t) nil [2435 2450])
+            ("SO_DETACH_REUSEPORT_BPF" variable (:constant-flag t) nil [2471 2494])
+            ("SO_TIMESTAMP" variable (:constant-flag t) nil [2836 2848])
+            ("SO_TIMESTAMPNS" variable (:constant-flag t) nil [2939 2953])
+            ("SO_TIMESTAMPING" variable (:constant-flag t) nil [3048 3063])
+            ("SO_RCVTIMEO" variable (:constant-flag t) nil [3161 3172])
+            ("SO_SNDTIMEO" variable (:constant-flag t) nil [3261 3272])
+            ("SCM_TIMESTAMP" variable (:constant-flag t) nil [3369 3382])
+            ("SCM_TIMESTAMPNS" variable (:constant-flag t) nil [3414 3429])
+            ("SCM_TIMESTAMPING" variable (:constant-flag t) nil [3461 3477]))          
+      :file "socket.h"
+      :pointmax 3539
+      :fsize 3538
+      :lastmodtime '(24101 36841 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SO_DONTROUTE" . ((number "5" 331 . 332)))
+          ("SO_BINDTODEVICE" . ((number "25" 1040 . 1042)))
+          ("SO_SELECT_ERR_QUEUE" . ((number "45" 1604 . 1606)))
+          ("SO_BPF_EXTENSIONS" . ((number "48" 1691 . 1693)))
+          ("SO_PEERGROUPS" . ((number "59" 2069 . 2071)))
+          ("SOL_SOCKET" . ((number "1" 227 . 228)))
+          ("SO_KEEPALIVE" . ((number "9" 469 . 470)))
+          ("SO_DOMAIN" . ((number "39" 1328 . 1330)))
+          ("SO_DETACH_REUSEPORT_BPF" . ((number "68" 2495 . 2497)))
+          ("SCM_TIMESTAMP" . ((symbol "SO_TIMESTAMP" 3393 . 3405)))
+          ("SCM_TIMESTAMPNS" . ((symbol "SO_TIMESTAMPNS" 3438 . 3452)))
+          ("SO_BROADCAST" . ((number "6" 354 . 355)))
+          ("SO_PASSCRED" . ((number "16" 686 . 688)))
+          ("SO_LOCK_FILTER" . ((number "44" 1572 . 1574)))
+          ("SO_BINDTOIFINDEX" . ((number "62" 2176 . 2178)))
+          ("SO_SNDBUFFORCE" . ((number "32" 419 . 421)))
+          ("SO_OOBINLINE" . ((number "10" 492 . 494)))
+          ("SO_PASSSEC" . ((number "34" 1259 . 1261)))
+          ("SO_MAX_PACING_RATE" . ((number "47" 1661 . 1663)))
+          ("SO_DETACH_BPF" . ((symbol "SO_DETACH_FILTER" 1773 . 1789)))
+          ("SO_ZEROCOPY" . ((number "60" 2094 . 2096)))
+          ("SO_TIMESTAMP" . ((semantic-list "(sizeof(time_t) == sizeof(__kernel_long_t) ? SO_TIMESTAMP_OLD : SO_TIMESTAMP_NEW)" 2849 . 2930)))
+          ("SO_TIMESTAMPING" . ((semantic-list "(sizeof(time_t) == sizeof(__kernel_long_t) ? SO_TIMESTAMPING_OLD : SO_TIMESTAMPING_NEW)" 3064 . 3151)))
+          ("SO_SECURITY_AUTHENTICATION" . ((number "22" 925 . 927)))
+          ("SO_RXQ_OVFL" . ((number "40" 1364 . 1366)))
+          ("SO_WIFI_STATUS" . ((number "41" 1392 . 1394)))
+          ("SO_MEMINFO" . ((number "55" 1950 . 1952)))
+          ("SCM_TIMESTAMPING" . ((symbol "SO_TIMESTAMPING" 3485 . 3500)))
+          ("SO_SNDBUF" . ((number "7" 374 . 375)))
+          ("SO_SNDTIMEO_OLD" . ((number "21" 809 . 811)))
+          ("SO_PROTOCOL" . ((number "38" 1306 . 1308)))
+          ("SO_PEEK_OFF" . ((number "42" 1455 . 1457)))
+          ("SO_NOFCS" . ((number "43" 1544 . 1546)))
+          ("SO_ATTACH_BPF" . ((number "50" 1747 . 1749)))
+          ("SO_CNX_ADVICE" . ((number "53" 1887 . 1889)))
+          ("SCM_TIMESTAMPING_OPT_STATS" . ((number "54" 1926 . 1928)))
+          ("SCM_TXTIME" . ((symbol "SO_TXTIME" 2140 . 2149)))
+          ("SO_BSDCOMPAT" . ((number "14" 583 . 585)))
+          ("SO_SECURITY_ENCRYPTION_NETWORK" . ((number "24" 1012 . 1014)))
+          ("SO_DETACH_FILTER" . ((number "27" 1120 . 1122)))
+          ("SO_GET_FILTER" . ((symbol "SO_ATTACH_FILTER" 1146 . 1162)))
+          ("SO_BUSY_POLL" . ((number "46" 1630 . 1632)))
+          ("SO_TIMESTAMPNS" . ((semantic-list "(sizeof(time_t) == sizeof(__kernel_long_t) ? SO_TIMESTAMPNS_OLD : SO_TIMESTAMPNS_NEW)" 2954 . 3039)))
+          ("__ASM_GENERIC_SOCKET_H")
+          ("SO_ERROR" . ((number "4" 308 . 309)))
+          ("SO_RCVBUF" . ((number "8" 394 . 395)))
+          ("SO_PEERCRED" . ((number "17" 709 . 711)))
+          ("SO_SNDLOWAT" . ((number "19" 755 . 757)))
+          ("SO_RCVTIMEO_OLD" . ((number "20" 782 . 784)))
+          ("SO_PEERNAME" . ((number "28" 1185 . 1187)))
+          ("SO_TXTIME" . ((number "61" 2117 . 2119)))
+          ("SO_SNDTIMEO_NEW" . ((number "67" 2459 . 2461)))
+          ("SO_SNDTIMEO" . ((semantic-list "(sizeof(time_t) == sizeof(__kernel_long_t) ? SO_SNDTIMEO_OLD : SO_SNDTIMEO_NEW)" 3273 . 3352)))
+          ("SO_RCVBUFFORCE" . ((number "33" 445 . 447)))
+          ("SO_PRIORITY" . ((number "12" 538 . 540)))
+          ("SO_ATTACH_FILTER" . ((number "26" 1092 . 1094)))
+          ("SO_MARK" . ((number "36" 1281 . 1283)))
+          ("SO_REUSEADDR" . ((number "2" 270 . 271)))
+          ("SO_PEERSEC" . ((number "31" 1236 . 1238)))
+          ("SO_ATTACH_REUSEPORT_CBPF" . ((number "51" 1824 . 1826)))
+          ("SO_INCOMING_NAPI_ID" . ((number "56" 1982 . 1984)))
+          ("SO_TIMESTAMP_OLD" . ((number "29" 2212 . 2214)))
+          ("SO_TIMESTAMPING_OLD" . ((number "37" 2282 . 2284)))
+          ("SO_RCVTIMEO_NEW" . ((number "66" 2424 . 2426)))
+          ("SO_DEBUG" . ((number "1" 247 . 248)))
+          ("SO_ACCEPTCONN" . ((number "30" 1212 . 1214)))
+          ("SO_COOKIE" . ((number "57" 2005 . 2007)))
+          ("SO_TIMESTAMPNS_OLD" . ((number "35" 2247 . 2249)))
+          ("SO_TYPE" . ((number "3" 289 . 290)))
+          ("SO_NO_CHECK" . ((number "11" 515 . 517)))
+          ("SO_LINGER" . ((number "13" 559 . 561)))
+          ("SO_REUSEPORT" . ((number "15" 607 . 609)))
+          ("SO_SECURITY_ENCRYPTION_TRANSPORT" . ((number "23" 969 . 971)))
+          ("SO_INCOMING_CPU" . ((number "49" 1720 . 1722)))
+          ("SO_ATTACH_REUSEPORT_EBPF" . ((number "52" 1860 . 1862)))
+          ("SO_TIMESTAMP_NEW" . ((number "63" 2318 . 2320)))
+          ("SO_TIMESTAMPING_NEW" . ((number "65" 2388 . 2390)))
+          ("SO_RCVLOWAT" . ((number "18" 732 . 734)))
+          ("SCM_WIFI_STATUS" . ((symbol "SO_WIFI_STATUS" 1419 . 1433)))
+          ("SCM_TIMESTAMPING_PKTINFO" . ((number "58" 2042 . 2044)))
+          ("SO_TIMESTAMPNS_NEW" . ((number "64" 2353 . 2355)))
+          ("SO_RCVTIMEO" . ((semantic-list "(sizeof(time_t) == sizeof(__kernel_long_t) ? SO_RCVTIMEO_OLD : SO_RCVTIMEO_NEW)" 3173 . 3252)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__ASM_GENERIC_SOCKIOS_H" variable (:constant-flag t) nil [104 127])
+            ("FIOSETOWN" variable (:constant-flag t) nil [175 184])
+            ("SIOCSPGRP" variable (:constant-flag t) nil [200 209])
+            ("FIOGETOWN" variable (:constant-flag t) nil [225 234])
+            ("SIOCGPGRP" variable (:constant-flag t) nil [250 259])
+            ("SIOCATMARK" variable (:constant-flag t) nil [275 285])
+            ("SIOCGSTAMP" variable (:constant-flag t) nil [301 311])
+            ("SIOCGSTAMPNS" variable (:constant-flag t) nil [354 366]))          
+      :file "sockios.h"
+      :pointmax 440
+      :fsize 439
+      :lastmodtime '(24101 36841 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__ASM_GENERIC_SOCKIOS_H")
+          ("FIOSETOWN" . ((number "0x8901" 185 . 191)))
+          ("SIOCGSTAMP" . ((number "0x8906" 312 . 318)))
+          ("SIOCSPGRP" . ((number "0x8902" 210 . 216)))
+          ("SIOCATMARK" . ((number "0x8905" 286 . 292)))
+          ("SIOCGSTAMPNS" . ((number "0x8907" 367 . 373)))
+          ("SIOCGPGRP" . ((number "0x8904" 260 . 266)))
+          ("FIOGETOWN" . ((number "0x8903" 235 . 241)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__ASM_GENERIC_POSIX_TYPES_H" variable (:constant-flag t) nil [108 135])
+            ("asm/bitsperlong.h" include (:system-flag t) nil [137 165])
+            ("__kernel_long_t" type
+               (:typedef ("long")
+                :type "typedef")
+                nil [441 471])
+            ("__kernel_ulong_t" type
+               (:typedef ("unsigned long")
+                :type "typedef")
+                nil [472 511])
+            ("__kernel_ino_t" type
+               (:typedef ("__kernel_ulong_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [543 583])
+            ("__kernel_mode_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [616 653])
+            ("__kernel_pid_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [685 713])
+            ("__kernel_ipc_pid_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [749 781])
+            ("__kernel_uid_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [813 849])
+            ("__kernel_gid_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [850 886])
+            ("__kernel_suseconds_t" type
+               (:typedef ("__kernel_long_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [924 970])
+            ("__kernel_daddr_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [1004 1034])
+            ("__kernel_uid32_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [1068 1106])
+            ("__kernel_gid32_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [1107 1145])
+            ("__kernel_old_uid_t" type
+               (:typedef ("__kernel_uid_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1181 1223])
+            ("__kernel_old_gid_t" type
+               (:typedef ("__kernel_gid_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1224 1266])
+            ("__kernel_old_dev_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [1302 1342])
+            ("__kernel_size_t" type
+               (:typedef ("unsigned int")
+                :type "typedef")
+                nil [1524 1561])
+            ("__kernel_ssize_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [1562 1592])
+            ("__kernel_ptrdiff_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [1593 1625])
+            ("__kernel_fsid_t" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("val" variable
+                             (:dereference 1
+                              :type "int")
+                              (reparse-symbol classsubparts) [1817 1828]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [1799 1847])
+            ("__kernel_off_t" type
+               (:typedef ("__kernel_long_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1915 1954])
+            ("__kernel_loff_t" type
+               (:typedef ("long long")
+                :type "typedef")
+                nil [1955 1989])
+            ("__kernel_time_t" type
+               (:typedef ("__kernel_long_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1990 2030])
+            ("__kernel_time64_t" type
+               (:typedef ("long long")
+                :type "typedef")
+                nil [2031 2067])
+            ("__kernel_clock_t" type
+               (:typedef ("__kernel_long_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [2068 2109])
+            ("__kernel_timer_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [2110 2140])
+            ("__kernel_clockid_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [2141 2173])
+            ("__kernel_caddr_t" type
+               (:typedef ("char")
+                :pointer 1
+                :type "typedef")
+                nil [2174 2207])
+            ("__kernel_uid16_t" type
+               (:typedef ("unsigned short")
+                :type "typedef")
+                nil [2208 2248])
+            ("__kernel_gid16_t" type
+               (:typedef ("unsigned short")
+                :type "typedef")
+                nil [2249 2289]))          
+      :file "posix_types.h"
+      :pointmax 2332
+      :fsize 2331
+      :lastmodtime '(24101 36841 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__ASM_GENERIC_POSIX_TYPES_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__ASM_GENERIC_BITS_PER_LONG" variable (:constant-flag t) nil [108 135])
+            ("__BITS_PER_LONG" variable (:constant-flag t) nil [497 512]))          
+      :file "bitsperlong.h"
+      :pointmax 565
+      :fsize 564
+      :lastmodtime '(24101 36841 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__BITS_PER_LONG" . ((number "32" 513 . 515)))
+          ("__ASM_GENERIC_BITS_PER_LONG")
+          )
+))
+  :file "!usr!include!asm-generic!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

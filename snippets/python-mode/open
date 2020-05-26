@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: open
+# key: open
+# --
+with open(${1:path}, ${2:mode}) as ${3:f}:
+     $0

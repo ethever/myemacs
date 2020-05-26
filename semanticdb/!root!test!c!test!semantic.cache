@@ -1,0 +1,137 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [21 38])
+            ("unistd.h" include (:system-flag t) nil [39 57])
+            ("stdlib.h" include (:system-flag t) nil [58 76])
+            ("main" function (:type "int") nil [78 219]))          
+      :file "test8.c"
+      :pointmax 220
+      :fsize 245
+      :lastmodtime '(24151 55130 390784 317000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [25 42])
+            ("string.h" include (:system-flag t) nil [43 61])
+            ("stdlib.h" include (:system-flag t) nil [62 80])
+            ("unistd.h" include (:system-flag t) nil [81 99])
+            ("main" function (:type "int") nil [101 493]))          
+      :file "test7.c"
+      :pointmax 494
+      :fsize 535
+      :lastmodtime '(24151 54066 810733 601000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 18])
+            ("string.h" include (:system-flag t) nil [19 37])
+            ("stdlib.h" include (:system-flag t) nil [38 56])
+            ("main" function (:type "int") nil [58 217]))          
+      :file "test9.c"
+      :pointmax 218
+      :fsize 217
+      :lastmodtime '(24155 51102 541543 487000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [19 36])
+            ("stdlib.h" include (:system-flag t) nil [37 55])
+            ("hex2d" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("hex" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [66 76])
+                    ("d" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [77 84]))                  
+                :type "int")
+                nil [56 85])
+            ("d2hex" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("hex" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [97 107])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [108 114]))                  
+                :type "void")
+                nil [86 115])
+            ("test" function
+               (:prototype-flag t
+                :type "void")
+                nil [116 128])
+            ("main" function (:type "int") nil [130 455])
+            ("d2hex" function
+               (:arguments 
+                  ( ("hex" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [468 478])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [479 485]))                  
+                :type "void")
+                nil [457 761])
+            ("hex2d" function
+               (:arguments 
+                  ( ("hex" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [790 800])
+                    ("d" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [801 808]))                  
+                :type "int")
+                nil [780 2146])
+            ("test" function (:type "void") nil [2148 2371]))          
+      :file "test10.c"
+      :pointmax 2372
+      :fsize 2395
+      :lastmodtime '(24157 8903 472904 582000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [19 36])
+            ("string.h" include (:system-flag t) nil [37 55])
+            ("stdlib.h" include (:system-flag t) nil [56 74])
+            ("main" function (:type "int") nil [76 1384]))          
+      :file "struct2char.c"
+      :pointmax 1385
+      :fsize 1410
+      :lastmodtime '(24162 16062 340599 299000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 18])
+            ("main" function (:type "int") nil [20 68]))          
+      :file "test11.c"
+      :pointmax 69
+      :fsize 68
+      :lastmodtime '(24166 13369 831845 258000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 18])
+            ("main" function (:type "int") nil [60 85]))          
+      :file "test1.c"
+      :pointmax 86
+      :fsize 85
+      :lastmodtime '(24166 19345 240015 973000)
+      :unmatched-syntax nil))
+  :file "!root!test!c!test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

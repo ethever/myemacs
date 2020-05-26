@@ -1,0 +1,19 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("百度文库下载" section nil nil [37 274])
+            ("提交" section nil nil [274 363])
+            ("提交" section nil nil [363 628]))          
+      :file "wenku.html"
+      :pointmax 628
+      :fsize 659
+      :lastmodtime '(24205 33269 290127 769000)
+      :unmatched-syntax nil))
+  :file "!root!test!web!html!tools!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

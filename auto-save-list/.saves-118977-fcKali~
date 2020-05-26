@@ -1,0 +1,12 @@
+/root/test/c/test/test10.c
+/root/test/c/test/#test10.c#
+/root/test/c/socket/socket_server.c
+/root/test/c/socket/#socket_server.c#
+/root/test/c/socket/socket_client.c
+/root/test/c/socket/#socket_client.c#
+/usr/include/pthread.h
+/usr/include/#pthread.h#
+/root/test/c/test/test7.c
+/root/test/c/test/#test7.c#
+/root/test/c/test/test8.c
+/root/test/c/test/#test8.c#

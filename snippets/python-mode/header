@@ -1,0 +1,12 @@
+# key: header
+# name: header
+# --
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
+# time: `(format-time-string "%Y-%m-%d %H:%M" (current-time))`
+# filename: `(file-name-nondirectory buffer-file-name)`
+'${1:something annotation here}'
+__author__ = "famouscat"
+
+$0

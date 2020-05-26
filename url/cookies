@@ -1,0 +1,18 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '(("www.baidu.com"
+  [url-cookie "NOJS" "1" "Tue, 22-Feb-2050 06:35:42 GMT" "/" "www.baidu.com" nil])
+ (".baidu.com"
+  [url-cookie "BAIDUID" "8B38F9E2FB232A5DBCF0DD34D52A2D81:FG=1" "日 2月 28 22:35:37 2021 GMT" "/" ".baidu.com" nil]
+  [url-cookie "BIDUPSID" "8B38F9E2FB232A5DF6CD3360A41C06E6" "五 3月 19 01:49:44 2088 GMT" "/" ".baidu.com" nil]
+  [url-cookie "PSTM" "1583044537" "五 3月 19 01:49:44 2088 GMT" "/" ".baidu.com" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

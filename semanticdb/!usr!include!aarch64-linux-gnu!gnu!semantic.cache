@@ -1,0 +1,71 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("bits/wordsize.h" include (:system-flag t) nil [170 196])
+            ("gnu/stubs-lp64.h" include (:system-flag t) nil [225 253]))          
+      :file "stubs.h"
+      :pointmax 326
+      :fsize 325
+      :lastmodtime '(24121 51190 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__stub___compat_bdflush" variable (:constant-flag t) nil [300 323])
+            ("__stub___compat_create_module" variable (:constant-flag t) nil [332 361])
+            ("__stub___compat_get_kernel_syms" variable (:constant-flag t) nil [370 401])
+            ("__stub___compat_query_module" variable (:constant-flag t) nil [410 438])
+            ("__stub___compat_uselib" variable (:constant-flag t) nil [447 469])
+            ("__stub_chflags" variable (:constant-flag t) nil [478 492])
+            ("__stub_fattach" variable (:constant-flag t) nil [501 515])
+            ("__stub_fchflags" variable (:constant-flag t) nil [524 539])
+            ("__stub_fdetach" variable (:constant-flag t) nil [548 562])
+            ("__stub_getmsg" variable (:constant-flag t) nil [571 584])
+            ("__stub_getpmsg" variable (:constant-flag t) nil [593 607])
+            ("__stub_gtty" variable (:constant-flag t) nil [616 627])
+            ("__stub_lchmod" variable (:constant-flag t) nil [636 649])
+            ("__stub_putmsg" variable (:constant-flag t) nil [658 671])
+            ("__stub_putpmsg" variable (:constant-flag t) nil [680 694])
+            ("__stub_revoke" variable (:constant-flag t) nil [703 716])
+            ("__stub_setlogin" variable (:constant-flag t) nil [725 740])
+            ("__stub_sigreturn" variable (:constant-flag t) nil [749 765])
+            ("__stub_sstk" variable (:constant-flag t) nil [774 785])
+            ("__stub_stty" variable (:constant-flag t) nil [794 805])
+            ("__stub_sysctl" variable (:constant-flag t) nil [814 827]))          
+      :file "stubs-lp64.h"
+      :pointmax 828
+      :fsize 827
+      :lastmodtime '(24121 51190 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__stub_fattach")
+          ("__stub_revoke")
+          ("__stub___compat_bdflush")
+          ("__stub_setlogin")
+          ("__stub_sigreturn")
+          ("__stub___compat_get_kernel_syms")
+          ("__stub___compat_query_module")
+          ("__stub_putpmsg")
+          ("__stub_sysctl")
+          ("__stub_getpmsg")
+          ("__stub_chflags")
+          ("__stub_stty")
+          ("__stub_fdetach")
+          ("__stub_gtty")
+          ("__stub___compat_uselib")
+          ("__stub___compat_create_module")
+          ("__stub_lchmod")
+          ("__stub_putmsg")
+          ("__stub_sstk")
+          ("__stub_fchflags")
+          ("__stub_getmsg")
+          )
+))
+  :file "!usr!include!aarch64-linux-gnu!gnu!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

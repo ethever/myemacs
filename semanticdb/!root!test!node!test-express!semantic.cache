@@ -1,0 +1,24 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "main.js"
+      :pointmax 1299
+      :fsize 1298
+      :lastmodtime '(24118 55149 162259 479000)
+      :unmatched-syntax '((VAR 1115 . 1118) (PAREN_BLOCK 1138 . 1297) (VARIABLE 1002 . 1005) (PAREN_BLOCK 1009 . 1112) (VARIABLE 905 . 908) (PAREN_BLOCK 912 . 984) (VARIABLE 696 . 703) (PAREN_BLOCK 710 . 902) (VARIABLE 486 . 493) (PAREN_BLOCK 499 . 674) (VARIABLE 296 . 303) (PAREN_BLOCK 309 . 483) (VARIABLE 95 . 102) (PAREN_BLOCK 106 . 293) (VAR 73 . 76) (PAREN_BLOCK 90 . 92) (VAR 38 . 41) (PAREN_BLOCK 59 . 70) (PAREN_BLOCK 22 . 36)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "express_demo2.js"
+      :pointmax 848
+      :fsize 847
+      :lastmodtime '(24118 37503 922299 466000)
+      :unmatched-syntax '((VAR 610 . 613) (PAREN_BLOCK 633 . 794) (VARIABLE 467 . 470) (PAREN_BLOCK 474 . 607) (VARIABLE 285 . 288) (PAREN_BLOCK 292 . 446) (VARIABLE 70 . 73) (PAREN_BLOCK 77 . 266) (VAR 35 . 38) (PAREN_BLOCK 52 . 54) (PAREN_BLOCK 22 . 33))))
+  :file "!root!test!node!test-express!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

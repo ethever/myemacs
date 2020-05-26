@@ -1,0 +1,40 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "alerter.js"
+      :pointmax 233
+      :fsize 232
+      :lastmodtime '(24191 17932 735436 317000)
+      :unmatched-syntax '((PAREN_BLOCK 7 . 232)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "dataService.js"
+      :pointmax 144
+      :fsize 143
+      :lastmodtime '(24191 14918 462303 528000)
+      :unmatched-syntax '((PAREN_BLOCK 7 . 143)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "signup.js"
+      :pointmax 2534
+      :fsize 2659
+      :lastmodtime '(24200 12301 408717 188000)
+      :unmatched-syntax '((PAREN_BLOCK 18 . 2533)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "login.js"
+      :pointmax 2162
+      :fsize 2305
+      :lastmodtime '(24204 36436 395697 604000)
+      :unmatched-syntax '((PAREN_BLOCK 2159 . 2161) (PAREN_BLOCK 13 . 2159))))
+  :file "!root!test!web!public!js!modules!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

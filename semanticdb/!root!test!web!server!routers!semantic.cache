@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "index.js"
+      :pointmax 174
+      :fsize 173
+      :lastmodtime '(24195 24516 556664 571000)
+      :unmatched-syntax '(($EOI 174 . 174) (PAREN_BLOCK 80 . 146) (VARIABLE 42 . 48) (PAREN_BLOCK 66 . 68) (VARIABLE 7 . 14) (PAREN_BLOCK 24 . 35))))
+  :file "!root!test!web!server!routers!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

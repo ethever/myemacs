@@ -1,0 +1,171 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_RPC_NETDB_H" variable (:constant-flag t) nil [1874 1886])
+            ("features.h" include (:system-flag t) nil [1890 1911])
+            ("__need_size_t" variable (:constant-flag t) nil [1921 1934])
+            ("stddef.h" include (:system-flag t) nil [1935 1954])
+            ("getrpcent_r" function
+               (:type "int"
+                :arguments 
+                  ( ("__result_buf" variable
+                       (:pointer 1
+                        :type ("rpcent" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2752 2780])
+                    ("__buffer" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2781 2796])
+                    ("__buflen" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2800 2816])
+                    ("__result" variable
+                       (:pointer 2
+                        :type ("rpcent" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2817 2842]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2728 2851])
+            ("getrpcbynumber_r" function
+               (:type "int"
+                :arguments 
+                  ( ("__number" variable (:type "int") (reparse-symbol arg-sub-list) [2600 2613])
+                    ("__result_buf" variable
+                       (:pointer 1
+                        :type ("rpcent" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2614 2642])
+                    ("__buffer" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2651 2666])
+                    ("__buflen" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2667 2683])
+                    ("__result" variable
+                       (:pointer 2
+                        :type ("rpcent" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2692 2717]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2571 2726])
+            ("getrpcbyname_r" function
+               (:type "int"
+                :arguments 
+                  ( ("__name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2441 2460])
+                    ("__result_buf" variable
+                       (:pointer 1
+                        :type ("rpcent" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2461 2489])
+                    ("__buffer" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2496 2511])
+                    ("__buflen" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2512 2528])
+                    ("__result" variable
+                       (:pointer 2
+                        :type ("rpcent" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2535 2560]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2414 2569])
+            ("getrpcent" function
+               (:type ("rpcent" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2380 2385]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2347 2394])
+            ("getrpcbynumber" function
+               (:type ("rpcent" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :arguments 
+                  ( ("__number" variable (:type "int") (reparse-symbol arg-sub-list) [2324 2337]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2286 2346])
+            ("getrpcbyname" function
+               (:type ("rpcent" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :arguments 
+                  ( ("__name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2257 2276]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2221 2285])
+            ("endrpcent" function
+               (:type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2206 2211]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2183 2220])
+            ("setrpcent" function
+               (:type "void"
+                :arguments 
+                  ( ("__stayopen" variable (:type "int") (reparse-symbol arg-sub-list) [2158 2173]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [2135 2182])
+            ("rpcent" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("r_name" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [1989 2002])
+                    ("r_aliases" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol classsubparts) [2050 2067])
+                    ("r_number" variable (:type "int") (reparse-symbol classsubparts) [2089 2102]))                  )
+                (reparse-symbol extern-c-contents) [1971 2133]))          
+      :file "netdb.h"
+      :pointmax 2898
+      :fsize 2897
+      :lastmodtime '(24088 63717 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__need_size_t")
+          ("_RPC_NETDB_H" . ((number "1" 1887 . 1888)))
+          )
+))
+  :file "!usr!include!rpc!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

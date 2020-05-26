@@ -1,0 +1,296 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("pthread.h" include (:system-flag t) nil [41 60])
+            ("stdio.h" include (:system-flag t) nil [61 78])
+            ("stdlib.h" include (:system-flag t) nil [79 97])
+            ("string.h" include (:system-flag t) nil [98 116])
+            ("sys/socket.h" include (:system-flag t) nil [117 139])
+            ("unistd.h" include (:system-flag t) nil [140 158])
+            ("arpa/inet.h" include (:system-flag t) nil [159 180])
+            ("LINK_PORT" variable (:constant-flag t) nil [204 213])
+            ("LINK_IP" variable (:constant-flag t) nil [274 281])
+            ("print_error" function
+               (:arguments 
+                  ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [317 327])
+                    ("str" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [328 338]))                  
+                :type "void")
+                nil [300 394])
+            ("recv_message" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [433 443]))                  
+                :type "void")
+                nil [414 444])
+            ("send_message" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [480 490]))                  
+                :type "void")
+                nil [461 491])
+            ("main" function (:type "int") nil [494 2655])
+            ("message_data" type
+               (:members 
+                  ( ("sender_id" variable (:type "int") (reparse-symbol classsubparts) [2710 2724])
+                    ("message" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [2740 2759])
+                    ("type" variable (:type "int") (reparse-symbol classsubparts) [2810 2819]))                  
+                :type "struct")
+                nil [2668 2822])
+            ("clear_buf" function (:type "void") nil [2837 2918])
+            ("d2hex" function
+               (:arguments 
+                  ( ("hex" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2933 2943])
+                    ("d" variable (:type "int") (reparse-symbol arg-sub-list) [2944 2950]))                  
+                :type "void")
+                nil [2922 3226])
+            ("get_message" function
+               (:arguments 
+                  ( ("message" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3310 3324])
+                    ("message_len" variable (:type "int") (reparse-symbol arg-sub-list) [3325 3341]))                  
+                :type "void")
+                nil [3293 3898])
+            ("send_message" function
+               (:pointer 1
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [3935 3945]))                  
+                :type "void")
+                nil [3916 4374])
+            ("free" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("buf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4333 4337]))                  
+                :type "int")
+                nil [4328 4338])
+            ("close" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("sock_t_s" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4347 4356]))                  
+                :type "int")
+                nil [4341 4357])
+            ("NULL" variable (:type "int") nil [4367 4372])
+            ("sock_t_s" variable
+               (:default-value "*((int*)arg)"
+                :type "int")
+                nil [4441 4469])
+            ("buf" variable
+               (:dereference 1
+                :type "char")
+                nil [4485 4500])
+            ("ret" variable (:type "int") nil [4503 4511])
+            ("fprintf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("stdout" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4526 4533]))                  
+                :type "int")
+                nil [4518 4554])
+            ("NULL" variable (:type "int") nil [4850 4855]))          
+      :file "socket_client.c"
+      :pointmax 4858
+      :fsize 5523
+      :lastmodtime '(24156 36939 811790 754000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("LINK_PORT" . ((number "6668" 214 . 218)))
+          ("LINK_IP" . ((string "\"192.168.0.111\"" 282 . 297)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("unistd.h" include (:system-flag t) nil [44 62])
+            ("arpa/inet.h" include (:system-flag t) nil [63 84])
+            ("ctype.h" include (:system-flag t) nil [85 102])
+            ("string.h" include (:system-flag t) nil [103 121])
+            ("stdlib.h" include (:system-flag t) nil [122 140])
+            ("stdio.h" include (:system-flag t) nil [141 158])
+            ("sys/types.h" include (:system-flag t) nil [159 180])
+            ("sys/socket.h" include (:system-flag t) nil [181 203])
+            ("pthread.h" include (:system-flag t) nil [204 223])
+            ("sys/socket.h" include (:system-flag t) nil [224 246])
+            ("semaphore.h" include (:system-flag t) nil [247 268])
+            ("string.h" include (:system-flag t) nil [269 287])
+            ("SERVER_PORT" variable (:constant-flag t) nil [310 321])
+            ("handle_function" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [369 379]))                  
+                :type "void")
+                nil [347 380])
+            ("server_init" function
+               (:prototype-flag t
+                :type "void")
+                nil [397 416])
+            ("get_message_len" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("hex" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [465 475])
+                    ("buf_len" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [476 489]))                  
+                :type "int")
+                nil [445 490])
+            ("print_error" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [521 531])
+                    ("error" variable (:type "int") (reparse-symbol arg-sub-list) [532 542])
+                    ("str" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [543 553]))                  
+                :type "void")
+                nil [504 554])
+            ("my_recv" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("socket" variable (:type "int") (reparse-symbol arg-sub-list) [598 609])
+                    ("buf" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [610 620])
+                    ("buf_len" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [621 634]))                  
+                :type "int")
+                nil [586 635])
+            ("sem" variable (:type ("sem_t" type (:type "class") nil nil)) nil [655 665])
+            ("conversation_p2p" type
+               (:members 
+                  ( ("m1_socket" variable (:type "int") (reparse-symbol classsubparts) [718 732])
+                    ("m2_socket" variable (:type "int") (reparse-symbol classsubparts) [774 788])
+                    ("con_id" variable (:type "int") (reparse-symbol classsubparts) [830 841]))                  
+                :type "struct")
+                nil [690 885])
+            ("server_init_t" type
+               (:members 
+                  ( ("server_socket" variable (:type "int") (reparse-symbol classsubparts) [940 958])
+                    ("client_socket" variable (:type "int") (reparse-symbol classsubparts) [994 1012])
+                    ("server_isbind" variable (:type "int") (reparse-symbol classsubparts) [1048 1066])
+                    ("server_addr" variable (:type ("sockaddr_in" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1107 1138])
+                    ("client_addr" variable (:type ("sockaddr_in" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1153 1184])
+                    ("server_addrlen" variable (:type ("socklen_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1199 1224])
+                    ("client_addrlen" variable (:type ("socklen_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1247 1272]))                  
+                :type "struct")
+                nil [915 1295])
+            ("message_data" type
+               (:members 
+                  ( ("sender_id" variable (:type "int") (reparse-symbol classsubparts) [1350 1364])
+                    ("to_id" variable (:type "int") (reparse-symbol classsubparts) [1383 1393])
+                    ("message" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [1409 1428])
+                    ("type" variable (:type "int") (reparse-symbol classsubparts) [1444 1453]))                  
+                :type "struct")
+                nil [1308 1456])
+            ("main" function (:type "int") nil [1459 2962])
+            ("handle_function" function
+               (:pointer 1
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [2986 2996]))                  
+                :type "void")
+                nil [2964 3934])
+            ("my_recv" function
+               (:arguments 
+                  ( ("socket" variable (:type "int") (reparse-symbol arg-sub-list) [4054 4065])
+                    ("buf" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4066 4076])
+                    ("buf_len" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [4077 4090]))                  
+                :type "int")
+                nil [4042 4462])
+            ("server_init" function
+               (:arguments 
+                  ( ("server_init_t" variable
+                       (:pointer 1
+                        :type ("server_init_t" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4498 4534]))                  
+                :type "void")
+                nil [4481 5482])
+            ("get_message_len" function
+               (:arguments 
+                  ( ("hex" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5521 5531])
+                    ("d" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [5532 5539]))                  
+                :type "int")
+                nil [5501 6866])
+            ("print_error" function
+               (:arguments 
+                  ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [6901 6911])
+                    ("error_code" variable (:type "int") (reparse-symbol arg-sub-list) [6912 6927])
+                    ("str" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [6928 6938]))                  
+                :type "void")
+                nil [6884 7002]))          
+      :file "socket_server.c"
+      :pointmax 7003
+      :fsize 7992
+      :lastmodtime '(24160 42623 684268 301000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SERVER_PORT" . ((number "6668" 322 . 326)))
+          )
+))
+  :file "!root!test!c!socket!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

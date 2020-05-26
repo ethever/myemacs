@@ -1,0 +1,14 @@
+# key: main
+# name: main
+# --
+#include<stdio.h>
+#include<stdlib.h>
+#include<${1:string.h}>
+
+// author: famouscat
+// time:
+
+int main(){
+    $0
+    return 0;
+}

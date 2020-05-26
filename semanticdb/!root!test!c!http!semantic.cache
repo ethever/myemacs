@@ -1,0 +1,263 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("__HTTP_H__" variable (:constant-flag t) nil [28 38])
+            ("FA_HTTP_DEFAULT_PORT" variable (:constant-flag t) nil [48 68])
+            ("BUFF_SIZE" variable (:constant-flag t) nil [80 89])
+            ("HTTP_POST" variable (:constant-flag t) nil [104 113])
+            ("HTTP_GET" variable (:constant-flag t) nil [261 269])
+            ("http_ret_t" variable (:type "int") nil [545 556]))          
+      :file "http.h"
+      :pointmax 667
+      :fsize 674
+      :lastmodtime '(24164 46668 432919 383000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BUFF_SIZE" . ((number "1024" 90 . 94)))
+          ("__HTTP_H__")
+          ("HTTP_POST" . ((string "\"POST /%s HTTP/1.1\\r\\nHOST: %s:%d\\r\\nAccept: */*\\r\\n\"" 114 . 167) (string "\"Content-Type:application/x-www-form-urlencoded\\r\\nContent-Length:\\
+%d\\r\\n\\r\\n%s\"" 171 . 252)))
+          ("HTTP_GET" . ((string "\"GET /%s HTTP/1.1\\r\\nHOST: %s:%d\\r\\nAccept: *" 270 . 315)))
+          ("FA_HTTP_DEFAULT_PORT" . ((number "80" 69 . 71)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("string.h" include (:system-flag t) nil [1 19])
+            ("stdio.h" include (:system-flag t) nil [20 37])
+            ("arpa/inet.h" include (:system-flag t) nil [38 59])
+            ("netdb.h" include (:system-flag t) nil [60 77])
+            ("unistd.h" include (:system-flag t) nil [78 96])
+            ("stdlib.h" include (:system-flag t) nil [97 115])
+            ("http.h" include nil nil [116 133])
+            ("http_tcpclient_create" function
+               (:arguments 
+                  ( ("host" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [168 185])
+                    ("port" variable (:type "int") (reparse-symbol arg-sub-list) [186 195]))                  
+                :type "int")
+                nil [146 818])
+            ("http_tcpclient_close" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("socket" variable (:type "int") (reparse-symbol arg-sub-list) [853 864]))                  
+                :type "void")
+                nil [820 884])
+            ("http_parse_url" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("url" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1063 1079])
+                    ("host" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1080 1091])
+                    ("file" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1092 1104])
+                    ("port" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1105 1115]))                  
+                :type "int")
+                nil [1037 1971])
+            ("http_tcpclient_recv" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("socket" variable (:type "int") (reparse-symbol arg-sub-list) [2004 2015])
+                    ("lpbuff" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2016 2029]))                  
+                :type "int")
+                nil [1973 2121])
+            ("http_tcpclient_send" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("socket" variable (:type "int") (reparse-symbol arg-sub-list) [2154 2165])
+                    ("buff" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2166 2177])
+                    ("size" variable (:type "int") (reparse-symbol arg-sub-list) [2178 2187]))                  
+                :type "int")
+                nil [2123 2373])
+            ("http_parse_result" function
+               (:pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("lpbuff" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2406 2425]))                  
+                :type "char")
+                nil [2375 2902])
+            ("http_get" function
+               (:arguments 
+                  ( ("url" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3027 3043])
+                    ("result" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [3044 3057]))                  
+                :type "int")
+                nil [3013 4169])
+            ("http_tcpclient_close" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("socket_fd" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4063 4073]))                  
+                :type "int")
+                nil [4042 4074])
+            ("memcpy" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("result" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4125 4132])
+                    ("" variable (:type ("lpbuf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4133 4139])
+                    ("" variable
+                       (:pointer 1
+                        :type ("BUFF_SIZE" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4140 4153]))                  
+                :type "int")
+                nil [4118 4155])
+            ("socket_fd" variable
+               (:default-value "-1"
+                :type "int")
+                nil [4229 4248])
+            ("lpbuf" variable
+               (:dereference 1
+                :default-value "{0}"
+                :type "char")
+                nil [4251 4283])
+            ("host_addr" variable
+               (:dereference 1
+                :default-value "{0}"
+                :type "char")
+                nil [4286 4318])
+            ("file" variable
+               (:dereference 1
+                :default-value "{0}"
+                :type "char")
+                nil [4321 4348])
+            ("port" variable
+               (:default-value "0"
+                :type "int")
+                nil [4351 4364])
+            ("socket_fd" variable
+               (:default-value "http_tcpclient_create(host_addr, port)"
+                :type "int")
+                nil [4573 4624])
+            ("sprintf" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("lpbuf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4723 4729])
+                    ("" variable (:type ("HTTP_POST" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4730 4740])
+                    ("" variable (:type ("file" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4741 4746])
+                    ("" variable (:type ("host_addr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4747 4757])
+                    ("" variable (:type ("port" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4758 4763])
+                    ("" variable (:type ("strlen" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4769 4785])
+                    ("" variable (:type ("post_str" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4787 4796]))                  
+                :type "int")
+                nil [4715 4797])
+            ("http_tcpclient_close" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("socket_fd" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5071 5081]))                  
+                :type "int")
+                nil [5050 5082])
+            ("http_parse_result" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("lpbuf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5110 5116]))                  
+                :type "int")
+                nil [5092 5117]))          
+      :file "http.c"
+      :pointmax 5121
+      :fsize 5504
+      :lastmodtime '(24166 10250 647756 144000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 18])
+            ("string.h" include (:system-flag t) nil [19 37])
+            ("stdlib.h" include (:system-flag t) nil [38 56])
+            ("http.h" include nil nil [57 73])
+            ("URL_IP_SEARCH" variable (:constant-flag t) nil [82 95])
+            ("search_for_ip" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("ip" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [204 213]))                  
+                :type "void")
+                nil [185 214])
+            ("search_for_url" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("url" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [235 245]))                  
+                :type "void")
+                nil [215 246])
+            ("help" function
+               (:prototype-flag t
+                :type "void")
+                nil [247 259])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [270 279])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [280 293]))                  
+                :type "int")
+                nil [261 891])
+            ("help" function (:type "void") nil [892 1021])
+            ("search_for_ip" function
+               (:arguments 
+                  ( ("ip" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1041 1050]))                  
+                :type "void")
+                nil [1022 1815])
+            ("search_for_url" function
+               (:arguments 
+                  ( ("url" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1836 1846]))                  
+                :type ("id" type (:type "class") nil nil))
+                nil [1818 2481]))          
+      :file "main.c"
+      :pointmax 2482
+      :fsize 2547
+      :lastmodtime '(24165 44221 744487 116000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("URL_IP_SEARCH" . ((string "\"http://api.ip138.com/query/?datetype=jsonp&ip=%s&token=afdba17e5c0e527b3db2d817dc82bbb3\"" 96 . 185)))
+          )
+))
+  :file "!root!test!c!http!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,59 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_LINUX_POSIX_TYPES_H" variable (:constant-flag t) nil [101 121])
+            ("linux/stddef.h" include (:system-flag t) nil [123 148])
+            ("__FD_SETSIZE" variable (:constant-flag t) nil [753 765])
+            ("__kernel_fd_set" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("fds_bits" variable
+                             (:dereference 1
+                              :type "unsigned long")
+                              (reparse-symbol classsubparts) [790 848]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [772 867])
+            ("__kernel_sighandler_t" function
+               (:prototype-flag t
+                :function-pointer t
+                :arguments 
+                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [940 944]))                  
+                :type "void")
+                nil [910 945])
+            ("__kernel_key_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [978 1005])
+            ("__kernel_mqd_t" type
+               (:typedef ("int")
+                :type "typedef")
+                nil [1006 1033])
+            ("asm/posix_types.h" include (:system-flag t) nil [1035 1063]))          
+      :file "posix_types.h"
+      :pointmax 1099
+      :fsize 1098
+      :lastmodtime '(24101 36841 0 0)
+      :unmatched-syntax '((TYPEDEF 902 . 909))
+      :lexical-table 
+        '(("_LINUX_POSIX_TYPES_H")
+          ("__FD_SETSIZE" . ((number "1024" 766 . 770)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags nil
+      :file "stddef.h"
+      :pointmax 132
+      :fsize 131
+      :lastmodtime '(24101 36841 0 0)
+      :unmatched-syntax nil))
+  :file "!usr!include!linux!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "firstpage.js"
+      :pointmax 200
+      :fsize 199
+      :lastmodtime '(24191 17820 340746 321000)
+      :unmatched-syntax '((PAREN_BLOCK 7 . 199) (PAREN_BLOCK 7 . 193) (PAREN_BLOCK 7 . 185) (PAREN_BLOCK 7 . 182) (PAREN_BLOCK 7 . 169) (PAREN_BLOCK 7 . 142) (PAREN_BLOCK 7 . 132) (PAREN_BLOCK 7 . 122) (PAREN_BLOCK 7 . 114) (PAREN_BLOCK 7 . 104) (PAREN_BLOCK 7 . 103) (PAREN_BLOCK 7 . 78) (PAREN_BLOCK 7 . 78) (PAREN_BLOCK 7 . 68) (PAREN_BLOCK 7 . 60) (PAREN_BLOCK 7 . 59) (PAREN_BLOCK 7 . 57) (PAREN_BLOCK 7 . 50) (PAREN_BLOCK 7 . 31) (PAREN_BLOCK 7 . 26) (PAREN_BLOCK 7 . 24) (PAREN_BLOCK 7 . 21) (PAREN_BLOCK 7 . 20) (PAREN_BLOCK 7 . 13) (PAREN_BLOCK 7 . 11))))
+  :file "!root!test!web!public!js!modules!firstpage!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

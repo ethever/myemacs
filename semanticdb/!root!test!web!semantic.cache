@@ -1,0 +1,39 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "main.js"
+      :pointmax 1882
+      :fsize 1951
+      :lastmodtime '(24266 32080 190817 745000)
+      :unmatched-syntax '((PAREN_BLOCK 1808 . 1881) (PAREN_BLOCK 1707 . 1795) (PAREN_BLOCK 1617 . 1699) (PAREN_BLOCK 1525 . 1609) (PAREN_BLOCK 1474 . 1517) (PAREN_BLOCK 1448 . 1465) (PAREN_BLOCK 1416 . 1439) (PAREN_BLOCK 1371 . 1407) (PAREN_BLOCK 1334 . 1362) (PAREN_BLOCK 1308 . 1325) (PAREN_BLOCK 1284 . 1299) (PAREN_BLOCK 1258 . 1276) (PAREN_BLOCK 1224 . 1250) (VARIABLE 1185 . 1188) (PAREN_BLOCK 1192 . 1206) (GREATER_THAN 782 . 783) (ASSIGN_SYMBOL 781 . 782) (PAREN_BLOCK 765 . 781) (VARIABLE 717 . 720) (PAREN_BLOCK 724 . 743) (PAREN_BLOCK 676 . 715) (VARIABLE 632 . 642) (PAREN_BLOCK 652 . 667) (VARIABLE 583 . 590) (PAREN_BLOCK 604 . 625) (VARIABLE 516 . 524) (PAREN_BLOCK 537 . 562) (VARIABLE 446 . 457) (PAREN_BLOCK 467 . 495) (VARIABLE 388 . 399) (PAREN_BLOCK 409 . 439) (VARIABLE 332 . 343) (PAREN_BLOCK 353 . 381) (VARIABLE 266 . 271) (PAREN_BLOCK 280 . 302) (VARIABLE 222 . 226) (PAREN_BLOCK 236 . 259) (VARIABLE 142 . 147) (VARIABLE 148 . 152) (VARIABLE 162 . 167) (VARIABLE 168 . 179) (PAREN_BLOCK 189 . 215) (VARIABLE 125 . 128) (PAREN_BLOCK 138 . 140) (VARIABLE 90 . 95) (VARIABLE 96 . 100) (PAREN_BLOCK 110 . 118) (VARIABLE 37 . 42) (VARIABLE 43 . 53) (PAREN_BLOCK 63 . 88) (VARIABLE 7 . 14) (PAREN_BLOCK 24 . 35)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("殇月空间" section nil nil [37 360])
+            ("发送帖子的按钮 固定在页面右下角 -->
+    <label for=\"toggle-funny\">" section nil nil [360 449])
+            ("发送帖子的按钮 固定在页面右下角 -->
+    <label for=\"toggle-funny\">" section (:members 
+              ( ("CIRCUTE" anchor nil nil [880 883])
+                ("首页" anchor nil nil [978 981])
+                ("百度文库下载" anchor nil nil [1008 1011])
+                ("小工具" anchor nil nil [1079 1082])
+                ("登录" anchor nil nil [1160 1163])
+                ("注册" anchor nil nil [1215 1218])
+                ("个人设置" anchor nil nil [1567 1570])
+                ("退出登录" anchor nil nil [1642 1645])
+                ("全部帖子" anchor nil nil [1897 1900]))              ) nil [449 2234])
+            ("" section nil nil [2234 2327]))          
+      :file "index.html"
+      :pointmax 2327
+      :fsize 2496
+      :lastmodtime '(24263 34417 788475 916000)
+      :unmatched-syntax nil))
+  :file "!root!test!web!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

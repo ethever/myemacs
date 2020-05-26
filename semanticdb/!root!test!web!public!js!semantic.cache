@@ -1,0 +1,43 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("online_tool" function nil nil [2 475]))          
+      :file "online_tool.js"
+      :pointmax 476
+      :fsize 475
+      :lastmodtime '(24191 8146 726677 291000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "main.js"
+      :pointmax 2363
+      :fsize 2520
+      :lastmodtime '(24267 19692 975815 810000)
+      :unmatched-syntax '((PAREN_BLOCK 2358 . 2360) (PAREN_BLOCK 20 . 2358)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "post.js"
+      :pointmax 2659
+      :fsize 2658
+      :lastmodtime '(24260 49238 252269 694000)
+      :unmatched-syntax '((PAREN_BLOCK 2656 . 2658) (PAREN_BLOCK 1 . 2656) (PAREN_BLOCK 2658 . 2660) (PAREN_BLOCK 1 . 2658) (PAREN_BLOCK 2653 . 2655) (PAREN_BLOCK 1 . 2653) (PAREN_BLOCK 2654 . 2656) (PAREN_BLOCK 1 . 2654) (PAREN_BLOCK 2653 . 2655) (PAREN_BLOCK 1 . 2653)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("testeditor" variable nil nil [1 16])
+            ("sendPost" function nil nil [5848 6671]))          
+      :file "post2.js"
+      :pointmax 6899
+      :fsize 7550
+      :lastmodtime '(24267 57064 976523 357000)
+      :unmatched-syntax nil))
+  :file "!root!test!web!public!js!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

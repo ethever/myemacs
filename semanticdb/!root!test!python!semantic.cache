@@ -1,0 +1,939 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("math" include nil nil [20 31])
+            ("print" code nil nil [33 49])
+            ("x" variable nil nil [51 56])
+            ("y" variable nil nil [57 62])
+            ("print" code nil nil [63 72])
+            ("print" code nil nil [73 82])
+            ("print" code nil nil [83 94])
+            ("flag" variable nil nil [106 118])
+            ("name" variable nil nil [119 133])
+            ("if" code nil nil [134 266])
+            ("age" variable nil nil [267 274])
+            ("if" code nil nil [275 316])
+            ("var1" variable nil nil [317 325])
+            ("var2" variable nil nil [326 335])
+            ("print" code nil nil [337 366]))          
+      :file "test.py"
+      :pointmax 367
+      :fsize 382
+      :lastmodtime '(24164 62872 197430 773000)
+      :unmatched-syntax '(($EOI 367 . 367)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("a" variable nil nil [1 4]))          
+      :file "test3.py"
+      :pointmax 10
+      :fsize 232
+      :lastmodtime '(24168 32325 249384 283000)
+      :unmatched-syntax '((PRINT 5 . 10) ($EOI 10 . 10)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("enroll" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [22 26])
+                ("gender" variable nil (reparse-symbol function_parameters) [28 34])
+                ("age" variable nil (reparse-symbol function_parameters) [36 39])
+                ("city" variable nil (reparse-symbol function_parameters) [45 49]))              ) nil [11 166])
+            ("add_end" function (:arguments 
+              ( ("L" variable nil (reparse-symbol function_parameters) [262 263]))              ) nil [250 347]))          
+      :file "test5.py"
+      :pointmax 348
+      :fsize 360
+      :lastmodtime '(24168 35841 769484 749000)
+      :unmatched-syntax '((DEF 250 . 253) ($EOI 267 . 267) (PAREN_BLOCK 261 . 267) (DEF 250 . 253)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("calc" function (:arguments 
+              ( ("numbers" variable nil (reparse-symbol function_parameters) [18 25]))              ) nil [9 99])
+            ("myCalc" function (:arguments 
+              ( ("numbers" variable nil (reparse-symbol function_parameters) [136 144]))              ) nil [125 218])
+            ("num" variable nil nil [249 267])
+            ("myFunction" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [305 309])
+                ("passwd" variable nil (reparse-symbol function_parameters) [311 317])
+                ("other" variable nil (reparse-symbol function_parameters) [319 326]))              ) nil [290 383])
+            ("extra" variable nil nil [410 450])
+            ("myFunction" code nil nil [451 497]))          
+      :file "test6.py"
+      :pointmax 498
+      :fsize 505
+      :lastmodtime '(24168 36853 289513 647000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("fact" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [17 18]))              ) nil [8 80])
+            ("print" code nil nil [81 98]))          
+      :file "test7.py"
+      :pointmax 99
+      :fsize 104
+      :lastmodtime '(24168 37312 353526 763000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("collections" include nil nil [48 90])
+            ("g" function nil nil [92 137])
+            ("print" code nil nil [142 205])
+            ("print" code nil nil [206 264])
+            ("print" code nil nil [265 317])
+            ("print" code nil nil [318 370])
+            ("print" code nil nil [372 435])
+            ("print" code nil nil [436 493])
+            ("print" code nil nil [494 547])
+            ("print" code nil nil [548 599])
+            ("print" code nil nil [614 647])
+            ("for" code nil nil [648 687])
+            ("print" code nil nil [688 729])
+            ("for" code nil nil [730 776])
+            ("d" variable nil nil [786 821])
+            ("for" code nil nil [839 880])
+            ("for" code nil nil [904 949])
+            ("print" code nil nil [974 1015])
+            ("for" code nil nil [1016 1080])
+            ("for" code nil nil [1102 1156]))          
+      :file "test8.py"
+      :pointmax 1156
+      :fsize 1155
+      :lastmodtime '(24168 39084 437577 391000)
+      :unmatched-syntax '((FOR 1102 . 1105) ($EOI 1138 . 1138) (FOR 1102 . 1105) ($EOI 1134 . 1134)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("print" code nil nil [56 92])
+            ("print" code nil nil [93 143])
+            ("print" code nil nil [144 199])
+            ("print" code nil nil [200 244]))          
+      :file "test9.py"
+      :pointmax 245
+      :fsize 252
+      :lastmodtime '(24168 39667 825594 58000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("s" variable nil nil [49 78])
+            ("print" code nil nil [79 87])
+            ("for" code nil nil [88 113])
+            ("fib" function (:arguments 
+              ( ("max" variable nil (reparse-symbol function_parameters) [122 125]))              ) nil [114 246])
+            ("f" variable nil nil [247 258])
+            ("print" code nil nil [259 279])
+            ("for" code nil nil [280 306])
+            ("g" variable nil nil [334 344])
+            ("while" code nil nil [345 498]))          
+      :file "do_generator.py"
+      :pointmax 498
+      :fsize 497
+      :lastmodtime '(24168 41440 625644 706000)
+      :unmatched-syntax '((INDENT_BLOCK 439 . 498) (NEWLINE 438 . 439) (COLON 436 . 437) (TRY 358 . 361) (AS 432 . 434) (INDENT_BLOCK 439 . 484) (NEWLINE 438 . 439) (COLON 436 . 437) (TRY 358 . 361) (AS 432 . 434) (INDENT_BLOCK 439 . 484) (NEWLINE 438 . 439) (COLON 436 . 437) (TRY 358 . 361) (AS 432 . 434) (EXCEPT 415 . 421) (EXCEPT 415 . 421)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("f" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [7 8]))              ) nil [1 28])
+            ("r" variable nil nil [29 69])
+            ("list" code nil nil [70 77]))          
+      :file "map_test.py"
+      :pointmax 100
+      :fsize 99
+      :lastmodtime '(24170 3956 913743 594000)
+      :unmatched-syntax '((DEF 79 . 82) ($EOI 100 . 100) (DEF 79 . 82) ($EOI 95 . 95) (NAME 70 . 74) ($EOI 74 . 74)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("add" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [275 276])
+                ("y" variable nil (reparse-symbol function_parameters) [278 279])
+                ("f" variable nil (reparse-symbol function_parameters) [281 282]))              ) nil [267 308])
+            ("print" code nil nil [309 331])
+            ("s" function (:arguments 
+              ( ("das" variable nil (reparse-symbol function_parameters) [339 342]))              ) nil [333 378])
+            ("haha" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [389 390])
+                ("y" variable nil (reparse-symbol function_parameters) [392 393])
+                ("z" variable nil (reparse-symbol function_parameters) [395 396]))              ) nil [380 418])
+            ("for" code nil nil [433 485])
+            ("for" code nil nil [486 546])
+            ("for" code nil nil [552 604]))          
+      :file "high-order-function.py"
+      :pointmax 604
+      :fsize 360
+      :lastmodtime '(24170 15013 726059 483000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("is_odd" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [124 125]))              ) nil [113 150])
+            ("list" code nil nil [151 203])
+            ("is_null" function (:arguments 
+              ( ("s" variable nil (reparse-symbol function_parameters) [217 218]))              ) nil [205 248])
+            ("list" code nil nil [249 298])
+            ("_odd_iter" function nil nil [300 377])
+            ("_not_divisible" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [397 398]))              ) nil [378 432])
+            ("primes" function nil nil [433 576])
+            ("for" code nil nil [577 656]))          
+      :file "filter.py"
+      :pointmax 656
+      :fsize 655
+      :lastmodtime '(24170 16765 317714 419000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("operator" include nil nil [117 148])
+            ("a" variable nil nil [150 183])
+            ("a" variable nil nil [184 213])
+            ("for" code nil nil [215 240])
+            ("b" variable nil nil [241 271])
+            ("b" variable nil nil [272 296])
+            ("for" code nil nil [298 323])
+            ("print" code nil nil [333 380])
+            ("c" variable nil nil [382 420])
+            ("c" variable nil nil [421 467])
+            ("for" code nil nil [469 494])
+            ("print" code nil nil [495 554])
+            ("d" variable nil nil [556 634])
+            ("dir" code nil nil [635 641])
+            ("d" variable nil nil [643 677])
+            ("for" code nil nil [678 703])
+            ("d" variable nil nil [746 781])
+            ("for" code nil nil [782 807])
+            ("d" variable nil nil [812 862])
+            ("for" code nil nil [863 888]))          
+      :file "sorted_test.py"
+      :pointmax 888
+      :fsize 887
+      :lastmodtime '(24170 18583 121771 789000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("calc_sum" function (:arguments 
+              ( ("args" variable nil (reparse-symbol function_parameters) [133 138]))              ) nil [120 205])
+            ("lazy_sum" function (:arguments 
+              ( ("args" variable nil (reparse-symbol function_parameters) [219 224]))              ) nil [206 337])
+            ("f" variable nil nil [338 370])
+            ("print" code nil nil [371 379]))          
+      :file "test_function.py"
+      :pointmax 394
+      :fsize 393
+      :lastmodtime '(24170 18938 953783 19000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("count" function nil nil [119 247])
+            ("count2" function nil nil [248 381])
+            ("count3" function nil nil [382 570])
+            ("createCounter" function nil nil [572 662])
+            ("counter1" variable nil nil [663 689])
+            ("counter2" variable nil nil [690 716])
+            ("counter3" variable nil nil [717 743])
+            ("print" code nil nil [744 761])
+            ("print" code nil nil [762 779])
+            ("print" code nil nil [780 797])
+            ("f1, f2, f3" code nil nil [799 820])
+            ("print" code nil nil [821 832])
+            ("print" code nil nil [833 844])
+            ("print" code nil nil [845 856])
+            ("f4" variable nil nil [884 897])
+            ("print" code nil nil [898 909])
+            ("f1, f2, f3" code nil nil [912 932])
+            ("print" code nil nil [934 945])
+            ("print" code nil nil [946 957])
+            ("print" code nil nil [958 969]))          
+      :file "closure_test.py"
+      :pointmax 1015
+      :fsize 1020
+      :lastmodtime '(24170 65292 933415 125000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("list" code nil nil [165 226])
+            ("list" code nil nil [227 272])
+            ("build" function (:arguments 
+              ( ("x" variable nil (reparse-symbol function_parameters) [284 285])
+                ("y" variable nil (reparse-symbol function_parameters) [287 288]))              ) nil [274 325])
+            ("f" variable nil nil [326 341])
+            ("print" code nil nil [342 352])
+            ("print" code nil nil [353 414])
+            ("is_odd" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [428 429]))              ) nil [417 454])
+            ("L" variable nil nil [455 493])
+            ("print" code nil nil [494 502])
+            ("print" code nil nil [504 559]))          
+      :file "lambda_test.py"
+      :pointmax 565
+      :fsize 632
+      :lastmodtime '(24171 977 713453 653000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("is_odd" function (:arguments 
+              ( ("n" variable nil (reparse-symbol function_parameters) [131 132]))              ) nil [120 157])
+            ("print" code nil nil [158 180])
+            ("f" variable nil nil [181 191])
+            ("print" code nil nil [192 209])
+            ("log" function (:arguments 
+              ( ("func" variable nil (reparse-symbol function_parameters) [240 244]))              ) nil [232 374])
+            ("now" function (:decorators 
+              ( ("log" function (:type "decorator") nil nil))              ) nil [375 414])
+            ("now" code nil nil [415 420])
+            ("functools" include nil nil [422 438])
+            ("log" function (:arguments 
+              ( ("text" variable nil (reparse-symbol function_parameters) [460 464]))              ) nil [452 692])
+            ("" code nil nil [697 708])
+            ("time" function nil nil [709 745])
+            ("time" code nil nil [750 756]))          
+      :file "function_test.py"
+      :pointmax 763
+      :fsize 762
+      :lastmodtime '(24171 2101 249489 112000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'something annotation here'" code nil nil [98 125])
+            ("__author__" variable nil nil [126 150])
+            ("functools" include nil nil [152 168])
+            ("int2" variable nil nil [170 209])
+            ("print" code nil nil [211 247]))          
+      :file "partial_test.py"
+      :pointmax 249
+      :fsize 248
+      :lastmodtime '(24171 5397 405593 138000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'something annotation here'" code nil nil [96 123])
+            ("__author__" variable nil nil [124 148])
+            ("sys" include nil nil [150 160])
+            ("test" function nil nil [162 357])
+            ("if" code nil nil [358 396]))          
+      :file "model_test.py"
+      :pointmax 396
+      :fsize 395
+      :lastmodtime '(24171 4749 101572 678000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'something annotation here'" code nil nil [104 131])
+            ("__author__" variable nil nil [132 156])
+            ("sys" include nil nil [158 168])
+            ("print" code nil nil [169 184])
+            ("_private1" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [199 203]))              ) nil [185 236])
+            ("_private2" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [250 254]))              ) nil [236 284])
+            ("greeting" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [297 301]))              ) nil [284 398]))          
+      :file "function_zero_test.py"
+      :pointmax 400
+      :fsize 399
+      :lastmodtime '(24171 5160 477585 661000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'object_test'" code nil nil [97 110])
+            ("__author__" variable nil nil [111 135]))          
+      :file "object_test.py"
+      :pointmax 143
+      :fsize 1119
+      :lastmodtime '(24171 7175 769649 263000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'inherit_test'" code nil nil [98 112])
+            ("__author__" variable nil nil [113 137])
+            ("Animal" type
+               (:documentation "Documentation for Animal
+
+    "
+                :superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("super" code nil (reparse-symbol indented_block_body) [240 270])
+                            ("self" variable nil (reparse-symbol indented_block_body) [279 295]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [219 223])
+                            ("args" variable nil (reparse-symbol function_parameters) [225 229]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [206 296])
+                    ("run" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [317 321]))                          )
+                        (reparse-symbol indented_block_body) [309 362]))                  
+                :type "class")
+                nil [139 362])
+            ("a" variable nil nil [364 380])
+            ("print" code nil nil [381 395]))          
+      :file "inherit_test.py"
+      :pointmax 396
+      :fsize 395
+      :lastmodtime '(24171 8390 281687 593000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'types_test'" code nil nil [96 108])
+            ("__author__" variable nil nil [109 133])
+            ("types" include nil nil [135 147])
+            ("fn" function nil nil [148 167])
+            ("a" code nil nil [167 201])
+            ("print" code nil nil [202 210])
+            ("b" code nil nil [212 254])
+            ("print" code nil nil [255 263])
+            ("c" code nil nil [265 306])
+            ("print" code nil nil [307 315])
+            ("d" code nil nil [317 372])
+            ("print" code nil nil [373 381])
+            ("MyObject" type
+               (:documentation "Documentation for MyObject
+
+    "
+                :superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [482 494]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [467 471]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [454 495])
+                    ("power" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [509 513]))                          )
+                        (reparse-symbol indented_block_body) [499 551]))                  
+                :type "class")
+                nil [383 551])
+            ("obj" variable nil nil [552 568])
+            ("if" code nil nil [609 666])
+            ("Student" type
+               (:superclasses ("object")
+                :members 
+                  ( ("student_number" variable nil (reparse-symbol indented_block_body) [696 714])
+                    ("\"\"\"Documentation for Student
+
+    \"\"\"" code nil (reparse-symbol indented_block_body) [719 756])
+                    ("function" function nil (reparse-symbol indented_block_body) [804 872]))                  
+                :type "class")
+                nil [669 872])
+            ("stu1" variable nil nil [872 888])
+            ("stu2" variable nil nil [889 905])
+            ("stu3" variable nil nil [906 922])
+            ("print" code nil nil [924 953]))          
+      :file "types_test.py"
+      :pointmax 954
+      :fsize 953
+      :lastmodtime '(24171 9759 569730 808000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'property_test'" code nil nil [99 114])
+            ("__author__" variable nil nil [115 139])
+            ("Screen" type
+               (:documentation "Documentation for Screen
+
+    "
+                :superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("super" code nil (reparse-symbol indented_block_body) [236 266]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [221 225]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [208 267])
+                    ("width" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [295 299]))                          
+                        :decorators 
+                          ( ("property" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [271 329])
+                    ("width" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [361 365])
+                            ("width" variable nil (reparse-symbol function_parameters) [367 372]))                          
+                        :decorators 
+                          ( ("width.setter" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [333 403])
+                    ("high" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [435 439]))                          
+                        :decorators 
+                          ( ("property" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [412 468])
+                    ("high" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [498 502])
+                            ("high" variable nil (reparse-symbol function_parameters) [504 508]))                          
+                        :decorators 
+                          ( ("high.setter" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [472 537])
+                    ("resolution" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [575 579]))                          
+                        :decorators 
+                          ( ("property" function (:type "decorator") nil nil))                          )
+                        (reparse-symbol indented_block_body) [546 622]))                  
+                :type "class")
+                nil [141 622])
+            ("screen" variable nil nil [624 641])
+            ("screen" variable nil nil [642 661])
+            ("screen" variable nil nil [662 679])
+            ("print" code nil nil [680 704]))          
+      :file "property_test.py"
+      :pointmax 705
+      :fsize 704
+      :lastmodtime '(24171 11101 321773 153000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'MaxIn_test'" code nil nil [96 108])
+            ("__author__" variable nil nil [109 133])
+            ("Animal" type
+               (:superclasses ("object")
+                :members 
+                  ( ("pass" code nil (reparse-symbol indented_block_body) [165 169]))                  
+                :type "class")
+                nil [139 170])
+            ("Mammal" type
+               (:superclasses ("Animal")
+                :members 
+                  ( ("pass" code nil (reparse-symbol indented_block_body) [196 200]))                  
+                :type "class")
+                nil [170 201])
+            ("Bird" type
+               (:superclasses ("Animal")
+                :members 
+                  ( ("pass" code nil (reparse-symbol indented_block_body) [225 229]))                  
+                :type "class")
+                nil [201 230])
+            ("Runnable" type
+               (:superclasses ("object")
+                :members 
+                  ( ("run" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [272 276]))                          )
+                        (reparse-symbol indented_block_body) [264 307]))                  
+                :type "class")
+                nil [236 307])
+            ("Flyable" type
+               (:superclasses ("object")
+                :members 
+                  ( ("fly" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [342 346]))                          )
+                        (reparse-symbol indented_block_body) [334 376]))                  
+                :type "class")
+                nil [307 376])
+            ("Bog" type
+               (:superclasses ("Mammal" "Runnable")
+                :members 
+                  ( ("pass" code nil (reparse-symbol indented_block_body) [427 431]))                  
+                :type "class")
+                nil [394 432])
+            ("Bat" type
+               (:superclasses ("Mammal" "Flyable")
+                :members 
+                  ( ("pass" code nil (reparse-symbol indented_block_body) [464 468]))                  
+                :type "class")
+                nil [432 469])
+            ("Parrot" type
+               (:superclasses ("Bird" "Flyable")
+                :members 
+                  ( ("pass" code nil (reparse-symbol indented_block_body) [502 506]))                  
+                :type "class")
+                nil [469 507])
+            ("Ostrich" type
+               (:superclasses ("Bird" "Flyable")
+                :members 
+                  ( ("pass" code nil (reparse-symbol indented_block_body) [541 545]))                  
+                :type "class")
+                nil [507 546]))          
+      :file "ManIn_test.py"
+      :pointmax 546
+      :fsize 561
+      :lastmodtime '(24171 12044 33802 905000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'getitem_test'" code nil nil [98 112])
+            ("__author__" variable nil nil [113 137])
+            ("Fib" type
+               (:documentation "Documentation for Fib
+
+    "
+                :superclasses ("object")
+                :members 
+                  ( ("__getitem__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [216 220])
+                            ("n" variable nil (reparse-symbol function_parameters) [222 223]))                          )
+                        (reparse-symbol indented_block_body) [200 697]))                  
+                :type "class")
+                nil [139 697])
+            ("f" variable nil nil [697 706]))          
+      :file "getitem_test.py"
+      :pointmax 724
+      :fsize 723
+      :lastmodtime '(24171 13182 521838 836000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'enum_test2'" code nil nil [96 108])
+            ("__author__" variable nil nil [109 133])
+            ("enum" include nil nil [135 164])
+            ("Weekday" type
+               (:superclasses ("Enum")
+                :members 
+                  ( ("Sun" variable nil (reparse-symbol indented_block_body) [200 207])
+                    ("Mon" variable nil (reparse-symbol indented_block_body) [212 219])
+                    ("Tue" variable nil (reparse-symbol indented_block_body) [224 231])
+                    ("Wed" variable nil (reparse-symbol indented_block_body) [236 243])
+                    ("Thu" variable nil (reparse-symbol indented_block_body) [248 255])
+                    ("Fri" variable nil (reparse-symbol indented_block_body) [260 267])
+                    ("Sat" variable nil (reparse-symbol indented_block_body) [272 279]))                  
+                :type "class")
+                nil [175 280])
+            ("for" code nil nil [285 364]))          
+      :file "enum_test2.py"
+      :pointmax 364
+      :fsize 363
+      :lastmodtime '(24171 21794 73432 582000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'type_test: 使用type动态创建类'" code nil nil [95 119])
+            ("__author__" variable nil nil [120 144])
+            ("fn" function
+               (:parent "dummy"
+                :arguments 
+                  ( ("self" variable nil (reparse-symbol function_parameters) [153 157])
+                    ("name" variable nil (reparse-symbol function_parameters) [159 163]))                  )
+                nil [146 206])
+            ("Hello" variable nil nil [211 261])
+            ("h" variable nil nil [263 274])
+            ("h" code nil nil [276 285]))          
+      :file "type_test.py"
+      :pointmax 286
+      :fsize 299
+      :lastmodtime '(24171 22212 189445 777000)
+      :unmatched-syntax '(($EOI 286 . 286) ($EOI 285 . 285) ($EOI 283 . 283) ($EOI 283 . 283) ($EOI 283 . 283) ($EOI 283 . 283) ($EOI 281 . 281) ($EOI 277 . 277) ($EOI 275 . 275) ($EOI 275 . 275)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'metaclass_test'" code nil nil [100 116])
+            ("__author__" variable nil nil [117 141])
+            ("ListMetaclass" type
+               (:superclasses ("type")
+                :members 
+                  ( ("__new__" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [187 190])
+                        ("name" variable nil (reparse-symbol function_parameters) [192 196])
+                        ("bases" variable nil (reparse-symbol function_parameters) [198 203])
+                        ("attrs" variable nil (reparse-symbol function_parameters) [205 210]))                      ) (reparse-symbol indented_block_body) [175 328]))                  
+                :type "class")
+                nil [143 328])
+            ("MyList" type
+               (:superclasses ("list" "ListMetaclass")
+                :members 
+                  ( ("pass" code nil (reparse-symbol indented_block_body) [386 390]))                  
+                :type "class")
+                nil [337 391]))          
+      :file "metaclass_test.py"
+      :pointmax 391
+      :fsize 390
+      :lastmodtime '(24171 22594 197457 834000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'metaclass_test2'" code nil nil [101 118])
+            ("__author__" variable nil nil [119 143])
+            ("Field" type
+               (:documentation "Documentation for Field
+
+    "
+                :superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("super" code nil (reparse-symbol indented_block_body) [257 286])
+                            ("self" variable nil (reparse-symbol indented_block_body) [295 311])
+                            ("self" variable nil (reparse-symbol indented_block_body) [320 350]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [223 227])
+                            ("name" variable nil (reparse-symbol function_parameters) [229 233])
+                            ("column_type" variable nil (reparse-symbol function_parameters) [235 246]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [210 351])
+                    ("__str__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [376 380]))                          )
+                        (reparse-symbol indented_block_body) [364 447]))                  
+                :type "class")
+                nil [145 447])
+            ("StringField" type
+               (:superclasses ("Field")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("super" code nil (reparse-symbol indented_block_body) [516 571]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [495 499])
+                            ("name" variable nil (reparse-symbol function_parameters) [501 505]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [482 572]))                  
+                :type "class")
+                nil [452 572])
+            ("IntegerField" type
+               (:documentation "Documentation for IntegerField
+    # 
+    "
+                :superclasses ("Field")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("super" code nil (reparse-symbol indented_block_body) [691 741]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [670 674])
+                            ("name" variable nil (reparse-symbol function_parameters) [676 680]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [657 742]))                  
+                :type "class")
+                nil [573 742])
+            ("ModelMetaclass" type
+               (:superclasses ("type")
+                :members 
+                  ( ("__new__" function (:arguments 
+                      ( ("cls" variable nil (reparse-symbol function_parameters) [787 790])
+                        ("name" variable nil (reparse-symbol function_parameters) [792 796])
+                        ("bases" variable nil (reparse-symbol function_parameters) [798 803])
+                        ("attrs" variable nil (reparse-symbol function_parameters) [805 810]))                      ) (reparse-symbol indented_block_body) [775 1314]))                  
+                :type "class")
+                nil [743 1314])
+            ("Model" type
+               (:documentation "Documentation for Model
+
+    "
+                :superclasses ("dict" "ModelMetaclass")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("super" code nil (reparse-symbol indented_block_body) [1448 1481]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1427 1431])
+                            ("kw" variable nil (reparse-symbol function_parameters) [1433 1437]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [1414 1482])
+                    ("__getattr__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1502 1506])
+                            ("key" variable nil (reparse-symbol function_parameters) [1508 1511]))                          )
+                        (reparse-symbol indented_block_body) [1486 1661])
+                    ("__setattr__" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1681 1685])
+                            ("key" variable nil (reparse-symbol function_parameters) [1687 1690])
+                            ("value" variable nil (reparse-symbol function_parameters) [1692 1697]))                          )
+                        (reparse-symbol indented_block_body) [1665 1726])
+                    ("save" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1739 1743]))                          )
+                        (reparse-symbol indented_block_body) [1730 2135]))                  
+                :type "class")
+                nil [1323 2135]))          
+      :file "metaclass_test2.py"
+      :pointmax 2162
+      :fsize 2161
+      :lastmodtime '(24171 27638 565617 34000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'open and read a file'" code nil nil [99 121])
+            ("__author__" variable nil nil [122 146])
+            ("with" code nil nil [148 210])
+            ("os" include nil nil [226 235])
+            ("print" code nil nil [236 250])
+            ("print" code nil nil [271 298])
+            ("print" code nil nil [300 353]))          
+      :file "openfile_test.py"
+      :pointmax 354
+      :fsize 250
+      :lastmodtime '(24171 30167 713696 853000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'pickle_test'" code nil nil [97 110])
+            ("__author__" variable nil nil [111 135])
+            ("pickle" include nil nil [137 150])
+            ("d" variable nil nil [153 197])
+            ("Student" type
+               (:superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("super" code nil (reparse-symbol indented_block_body) [278 309])
+                            ("self" variable nil (reparse-symbol indented_block_body) [318 334]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [257 261])
+                            ("name" variable nil (reparse-symbol function_parameters) [263 267]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [244 335])
+                    ("get_name" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [352 356]))                          )
+                        (reparse-symbol indented_block_body) [339 384])
+                    ("set_name" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [401 405])
+                            ("name" variable nil (reparse-symbol function_parameters) [407 411]))                          )
+                        (reparse-symbol indented_block_body) [388 439]))                  
+                :type "class")
+                nil [217 439])
+            ("s" variable nil nil [448 466])
+            ("s" code nil nil [467 490])
+            ("print" code nil nil [491 510])
+            ("with" code nil nil [530 605])
+            ("with" code nil nil [606 682])
+            ("print" code nil nil [682 690])
+            ("print" code nil nil [692 711]))          
+      :file "pickle_test.py"
+      :pointmax 712
+      :fsize 711
+      :lastmodtime '(24171 31464 629737 784000)
+      :unmatched-syntax '((PRINT 692 . 697) ($EOI 709 . 709)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'json'" code nil nil [95 101])
+            ("__author__" variable nil nil [102 126])
+            ("json" include nil nil [128 139])
+            ("Student" type
+               (:superclasses ("object")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("super" code nil (reparse-symbol indented_block_body) [197 228])
+                            ("self" variable nil (reparse-symbol indented_block_body) [237 260])
+                            ("self" variable nil (reparse-symbol indented_block_body) [269 282])
+                            ("self" variable nil (reparse-symbol indented_block_body) [291 307]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [182 186]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [169 308]))                  
+                :type "class")
+                nil [142 308])
+            ("student" variable nil nil [308 327])
+            ("d" variable nil nil [329 380])
+            ("json" code nil nil [382 395])
+            ("json_object" variable nil nil [397 459])
+            ("json" code nil nil [460 483])
+            ("print" code nil nil [484 514])
+            ("student2dict" function (:arguments 
+              ( ("std" variable nil (reparse-symbol function_parameters) [532 535]))              ) nil [515 634]))          
+      :file "json_test.py"
+      :pointmax 685
+      :fsize 684
+      :lastmodtime '(24171 32187 425760 595000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'process_test'" code nil nil [98 112])
+            ("__author__" variable nil nil [113 137])
+            ("multiprocessing" include nil nil [138 173])
+            ("os" include nil nil [208 217])
+            ("run_proc" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [232 236]))              ) nil [219 303])
+            ("if" code nil nil [305 532]))          
+      :file "process_test.py"
+      :pointmax 532
+      :fsize 531
+      :lastmodtime '(24171 33045 441787 674000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'pool_test'" code nil nil [95 106])
+            ("__author__" variable nil nil [107 131])
+            ("multiprocessing" include nil nil [133 165])
+            ("random" include nil nil [167 190])
+            ("time" include nil nil [167 190])
+            ("os" include nil nil [167 190])
+            ("long_time_task" function (:arguments 
+              ( ("name" variable nil (reparse-symbol function_parameters) [211 215]))              ) nil [192 420])
+            ("if" code nil nil [425 704]))          
+      :file "pool_test.py"
+      :pointmax 704
+      :fsize 703
+      :lastmodtime '(24171 33395 953798 736000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("'subprocess_test'" code nil nil [101 118])
+            ("__author__" variable nil nil [119 143])
+            ("subprocess" include nil nil [145 162])
+            ("print" code nil nil [164 179])
+            ("r" variable nil nil [182 216]))          
+      :file "subprocess_test.py"
+      :pointmax 226
+      :unmatched-syntax '((PRINT 218 . 223) ($EOI 226 . 226))))
+  :file "!root!test!python!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,48 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "user.js"
+      :pointmax 1469
+      :fsize 1468
+      :lastmodtime '(24205 12998 945995 753000)
+      :unmatched-syntax '((PAREN_BLOCK 7 . 1468)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "dom.js"
+      :pointmax 735
+      :fsize 744
+      :lastmodtime '(24261 16574 304831 885000)
+      :unmatched-syntax '((PAREN_BLOCK 34 . 734)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "localdb.js"
+      :pointmax 502
+      :fsize 505
+      :lastmodtime '(24263 48867 549654 576000)
+      :unmatched-syntax '((PAREN_BLOCK 25 . 501)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "tools.js"
+      :pointmax 743
+      :fsize 802
+      :lastmodtime '(24267 18404 184111 112000)
+      :unmatched-syntax '((PAREN_BLOCK 8 . 742) (PAREN_BLOCK 8 . 741) (PAREN_BLOCK 8 . 734) (PAREN_BLOCK 8 . 735) (PAREN_BLOCK 8 . 725) (PAREN_BLOCK 8 . 716) (PAREN_BLOCK 8 . 711)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "viewtools.js"
+      :pointmax 1521
+      :fsize 1562
+      :lastmodtime '(24267 18229 116741 669000)
+      :unmatched-syntax '((PAREN_BLOCK 7 . 1520) (PAREN_BLOCK 7 . 1515) (PAREN_BLOCK 7 . 1511) (PAREN_BLOCK 7 . 1507) (PAREN_BLOCK 7 . 1503) (PAREN_BLOCK 7 . 1496) (PAREN_BLOCK 7 . 1496) (PAREN_BLOCK 7 . 1491) (PAREN_BLOCK 7 . 1489) (PAREN_BLOCK 7 . 1477) (PAREN_BLOCK 7 . 1478) (PAREN_BLOCK 7 . 1477) (PAREN_BLOCK 7 . 1474) (PAREN_BLOCK 7 . 1473) (PAREN_BLOCK 7 . 1469) (PAREN_BLOCK 7 . 1474) (PAREN_BLOCK 7 . 1473) (PAREN_BLOCK 7 . 1470) (PAREN_BLOCK 7 . 1511) (PAREN_BLOCK 7 . 1514) (PAREN_BLOCK 7 . 1514) (PAREN_BLOCK 7 . 35) (PAREN_BLOCK 7 . 35) (PAREN_BLOCK 7 . 30) (PAREN_BLOCK 7 . 12) (PAREN_BLOCK 7 . 11) ($EOI 7 . 7))))
+  :file "!root!test!web!public!js!modules!tools!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

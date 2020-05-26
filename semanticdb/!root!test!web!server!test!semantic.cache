@@ -1,0 +1,20 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("ak" variable (:default-value "\"vR9swnFpH08vxfpwXjnSYSGNLQvvCa06GrFadKUr\"") nil [33 85])
+            ("sk" variable (:default-value "\"r_SuVkJBJYtUztquUT3ktkE-3gpXvLOpXRnGZa0e\"") nil [86 138])
+            ("localFile" variable (:default-value "\"/root/test/web/public/images/bg1.jpg\"") nil [438 493])
+            ("key" variable (:default-value "\"test.jpg\"") nil [599 620]))          
+      :file "upload_qiniuyun.js"
+      :pointmax 918
+      :fsize 917
+      :lastmodtime '(24259 46562 522041 370000)
+      :unmatched-syntax '((VARIABLE 622 . 634) (PAREN_BLOCK 642 . 913) (VAR 554 . 557) (PAREN_BLOCK 595 . 597) (VAR 495 . 498) (PAREN_BLOCK 544 . 552) (VAR 365 . 368) (PAREN_BLOCK 399 . 401) (VARIABLE 322 . 329) (PAREN_BLOCK 333 . 361) (VAR 275 . 278) (PAREN_BLOCK 314 . 319) (VAR 184 . 187) (BRACE_BLOCK 198 . 223) (SEMICOLON 223 . 224) (VAR 226 . 229) (PAREN_BLOCK 264 . 273) (VAR 139 . 142) (PAREN_BLOCK 174 . 182) (PAREN_BLOCK 20 . 29))))
+  :file "!root!test!web!server!test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

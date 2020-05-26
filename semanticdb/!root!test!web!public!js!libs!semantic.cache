@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "md5.js"
+      :pointmax 8440
+      :fsize 8670
+      :lastmodtime '(22413 64569 0 0)
+      :unmatched-syntax '((PAREN_BLOCK 8429 . 8437) (PAREN_BLOCK 1668 . 8429))))
+  :file "!root!test!web!public!js!libs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

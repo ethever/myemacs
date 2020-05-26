@@ -1,0 +1,41 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue May 26 16:19:42 2020
+;; Desktop file format version 206
+;; Emacs version 26.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24268 53534 142682 409000) (desktop . "208") "root@VM_0_3_centos" nil nil ((((minibuffer . t) (tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (menu-bar-lines . 0) (background-color . "unspecified-bg") (font . "tty") (height . 25) (width . 146) (modeline . t) (unsplittable) (frameset--id . "1B4D-B2F4-1163-69D9") (frameset--mini t)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 6) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 8) (min-pixel-width . 10) (min-pixel-height-ignore . 4) (min-pixel-width-ignore . 6) (min-pixel-height-safe . 2) (min-pixel-width-safe . 2)) vc (pixel-width . 146) (pixel-height . 24) (total-width . 146) (total-height . 24) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 146) (pixel-height . 12) (total-width . 146) (total-height . 12) (normal-height . 0.5) (normal-width . 1.0) (buffer ".emacs" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 4) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 6408) (start . 6282))) (leaf (last . t) (pixel-width . 146) (pixel-height . 12) (total-width . 146) (total-height . 12) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins 2) (scroll-bars nil 0 t nil 0 nil) (vscroll . 0) (dedicated) (point . 355) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("quick		" "tool"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/root/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(eldoc-mode linum-mode)
+  6408
+  '(6648 nil)
+  nil
+  nil
+  '((buffer-display-time 24268 53432 612347 289000) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/root/emacs/emacs-26.3/INSTALL"
+  "INSTALL"
+  'fundamental-mode
+  '(linum-mode)
+  156
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 8) (buffer-display-time 24268 53393 892420 555000) (buffer-file-coding-system . undecided-unix) (fill-column . 70)))
+
