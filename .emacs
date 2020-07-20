@@ -15,15 +15,15 @@
 ;; 显示行号
 (global-linum-mode 1)
 ;; how to display line number
-(setq linum-format "%d ")
+(setq linum-format "%d")
 ;; 隐藏菜单栏, 工具栏, 滚动条
-;; (tool-bar-mode 0)			
+(tool-bar-mode 0)			
 (menu-bar-mode 0)
 ;; (scroll-bar-mode 0)
 ;; 高亮当前行
-;;(global-hl-line-mode 1)
+(global-hl-line-mode 1)
 ;; 设置字体
-(set-default-font "Monaco-14")
+;;(set-default-font "Monaco-14")
 ;; 修改窗口title
 (setq frame-title-format "famouscat@%b")
 
@@ -54,16 +54,16 @@
 ;; -------------------------------------------------------------------------------------------------
 ;; 加载插件
 ;; c-mode 中函数, 符号定义查找工具
-(add-to-list 'load-path' "/root/.emacs.d/site-lisp")
+(add-to-list 'load-path' "~/.emacs.d/site-lisp")
 (require 'xcscope)
 
 ;; 智能编辑插件
-(add-to-list 'load-path (expand-file-name "/root/.emacs.d/site-lisp"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/site-lisp"))
 (require 'thing-edit)
 
 
 ;; 配置ecb
-(add-to-list 'load-path "/root/.emacs.d/site-lisp/ecb")
+(add-to-list 'load-path "~/.emacs.d/site-lisp/ecb")
 (require 'ecb)
 
 
