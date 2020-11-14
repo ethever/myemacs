@@ -21,7 +21,7 @@
 (menu-bar-mode 0)
 ;; (scroll-bar-mode 0)
 ;; 高亮当前行
-(global-hl-line-mode 1)
+(global-hl-line-mode 0)
 ;; 设置字体
 ;;(set-default-font "Monaco-14")
 ;; 修改窗口title
