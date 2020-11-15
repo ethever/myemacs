@@ -1,69 +1,3 @@
-cp list-items.less list-items.less.bak
-ls -l
-ls
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-cp list-items.less list-items.less.bak
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-fg
-jobs
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-b
-b
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
 lessc index.less index.css 
 lessc index.less index.css 
 lessc index.less index.css 
@@ -126,3 +60,69 @@ lessc  post.less post.css
 lessc  post.less post.css 
 lessc list-items.less list-items.css
 lessc index.less index.css 
+ls -la
+systemctl restart nginx 
+systemctl status nginx 
+systemctl restart nginx 
+systemctl status nginx 
+systemctl restart nginx 
+systemctl status nginx 
+systemctl restart nginx 
+systemctl status nginx 
+systemctl restart nginx 
+systemctl status nginx 
+systemctl restart nginx 
+ls -la
+systemctl restart nginx 
+ls -la
+ls -la
+systemctl restart nginx 
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+cd /root
+ls -la
+ls
+ls
+ls- la
+ls -la
+cd test
+ls -la
+cd myemacs/
+ls -la
+ls -la
+ls -la
+ls -la
+cd ..
+ls -la
+ls -la
+ls -la
+cd ..
+ls -la
+cd .emacs.d
+ls -la
+ls -la
+cd site-lisp/
+ls -la
+git clone https://github.com/imcvampire/vue-mode.git
+ls -la
+cd vue-mode/
+ls -la
+cd Ca
+cd Cask 
+ls -la
+cat Cask 
+ls -la
+ls -la
+ls -la
+ls -la
+ls- la
+cd ..
+ls -la
+git clone https://github.com/purcell/mmm-mode.git
+ls -la

@@ -1,12 +1,3 @@
-/root/test/python
-/root/test/web/node_modules
-/root/test/web/css
-/root/test/c/test
-/root/test/c
-/root
-/root/test
-/root/test/test
-/root/test
 /root/test/web/public/js/modules
 /root/test/web/public/js/modules
 /usr/share
@@ -31,3 +22,12 @@
 /root/test/web/public/css
 /root/test/web/public/css/post
 /root/test/web/public/css
+/etc/nginx/conf
+/root/program/buble-web/src
+/root/test/myemacs
+/root/test
+/root
+/root/.emacs.d
+/root/.emacs.d/site-lisp
+/root/.emacs.d/site-lisp/vue-mode
+/root/.emacs.d/site-lisp

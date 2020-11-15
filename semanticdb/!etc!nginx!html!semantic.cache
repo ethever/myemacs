@@ -1,0 +1,511 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("Home" section nil nil [44 266])
+            ("addEventListener(\"load\", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}" section nil nil [266 1132])
+            ("banner -->
+	<div class=\"agileits_top_menu\">
+
+		<div class=\"w3l_header_left\">
+			<ul>
+				<li><i class=\"fa fa-map-marker\" aria-hidden=\"true\">" section (:members 
+              ( ("info@example.com" anchor nil nil [1453 1456])
+                ("Treasurer" section (:members 
+                  ( ("Sign Up" anchor nil nil [2639 2642])
+                    ("Home" anchor nil nil [2953 2956])
+                    ("About" anchor nil nil [3032 3035])
+                    ("Portfolio" anchor nil nil [3112 3115])
+                    ("Blog" anchor nil nil [3200 3203])
+                    ("Short Codes <b class=\"fa fa-caret-down\">" anchor nil nil [3303 3306])
+                    ("Web Icons" anchor nil nil [3504 3507])
+                    ("Typography" anchor nil nil [3556 3559])
+                    ("Contact" anchor nil nil [3637 3640])
+                    ("Sign In" section (:members 
+                      ( ("Don't have an account?" anchor nil nil [4566 4569])
+                        ("Don't have an account?" anchor nil nil [4630 4633])
+                        ("Don't have an account?" anchor nil nil [4693 4696])
+                        ("Don't have an account?" anchor nil nil [4775 4778]))                      ) nil [4120 5258])
+                    ("Sign Up" section (:members 
+                      ( ("By clicking register, I agree to your terms" anchor nil nil [5805 5808])
+                        ("Creative Lifesaver" anchor nil nil [6044 6047]))                      ) nil [5258 6145])
+                    ("Creative Lifesaver" section (:members 
+                      ( ("Honest Entertainer" anchor nil nil [6209 6212]))                      ) nil [6145 6310])
+                    ("Honest Entertainer" section (:members 
+                      ( ("Brave Astronaut" anchor nil nil [6374 6377]))                      ) nil [6310 6475])
+                    ("Brave Astronaut" section (:members 
+                      ( ("Affectionate Decision Maker" anchor nil nil [6536 6539]))                      ) nil [6475 6637])
+                    ("Affectionate Decision Maker" section (:members 
+                      ( ("Next" anchor nil nil [6798 6801])
+                        ("Previous" anchor nil nil [6823 6826]))                      ) nil [6637 7170])
+                    ("Let’s made Your own Business" section (:members 
+                      ( ("welcome to <span>Treasurer" section (:members 
+                          ( ("23,536" anchor nil nil [7906 7909])
+                            ("13,676" anchor nil nil [8347 8350])
+                            ("45,342" anchor nil nil [8767 8770])
+                            ("Grow Your business" anchor nil nil [9653 9656])
+                            ("Grow Your business" section nil nil [9697 9946])
+                            ("Grow Your business" section (:members 
+                              ( ("//banner-bottom-icons -->
+
+	<div class=\"skills\">
+		<div class=\"container\">
+			<h3 class=\"tittle_agile_w3\">Our Skills" anchor nil nil [9991 9994]))                              ) nil [9946 10254]))                          ) nil [7580 10254])
+                        ("Our Skills" section (:members 
+                          ( ("Modern business Template" section (:members 
+                              ( ("Read More" anchor nil nil [10866 10869]))                              ) nil [10556 11568]))                          ) nil [10254 11568])
+                        ("What We Do" section (:members 
+                          ( ("Responsive Layout" section nil nil [12131 12521])
+                            ("Web design" section nil nil [12521 12907])
+                            ("Support 24x7" section nil nil [12907 13362])
+                            ("Easy Customization" section nil nil [13362 13758])
+                            ("Creative Design" section nil nil [13758 14146])
+                            ("Easy For Users" section nil nil [14146 14598]))                          ) nil [11568 14598])
+                        ("Latest News" section (:members 
+                          ( ("Conse ctetur adipisi" anchor nil nil [14981 14984])
+                            ("Conse ctetur adipisi" section (:members 
+                              ( ("Read More" anchor nil nil [15493 15496])
+                                ("Dolor sit amet" anchor nil nil [15719 15722]))                              ) nil [15178 15916])
+                            ("Dolor sit amet" section (:members 
+                              ( ("Read More" anchor nil nil [16225 16228])
+                                ("Sit Lorem ipsum" anchor nil nil [16451 16454]))                              ) nil [15916 16648])
+                            ("Sit Lorem ipsum" section (:members 
+                              ( ("Read More" anchor nil nil [16958 16961]))                              ) nil [16648 17237]))                          ) nil [14598 17237])
+                        ("News Letter" section (:members 
+                          ( ("Treasurer" section (:members 
+                              ( ("Richard Carl" anchor nil nil [18587 18590]))                              ) nil [17909 19075]))                          ) nil [17237 19075])
+                        ("Richard Carl" section (:members 
+                          ( ("Michael Crisp" anchor nil nil [19249 19252]))                          ) nil [19075 19739])
+                        ("Michael Crisp" section (:members 
+                          ( ("Adam Lii" anchor nil nil [19914 19917]))                          ) nil [19739 20404])
+                        ("Adam Lii" section (:members 
+                          ( ("Thomas Paul" anchor nil nil [20574 20577]))                          ) nil [20404 21064])
+                        ("Thomas Paul" section (:members 
+                          ( ("Adam Lii" anchor nil nil [21237 21240]))                          ) nil [21064 21727])
+                        ("Adam Lii" section nil nil [21727 23100])
+                        ("Are Looking for Business Solutions ?" section (:members 
+                          ( ("Get In Touch" anchor nil nil [23202 23205]))                          ) nil [23100 23514])
+                        ("Latest Tweets" section (:members 
+                          ( ("info@mail.com" anchor nil nil [23858 23861]))                          ) nil [23514 24039])
+                        ("Navigation" section (:members 
+                          ( ("Home" anchor nil nil [24182 24185])
+                            ("About" anchor nil nil [24286 24289])
+                            ("Portfolio" anchor nil nil [24391 24394])
+                            ("Contact" anchor nil nil [24504 24507]))                          ) nil [24039 24619])
+                        ("Instagram Posts" section (:members 
+                          ( ("3481 Melrose Place, Beverly Hills, <span>New York City 90210." anchor nil nil [24698 24701])
+                            ("3481 Melrose Place, Beverly Hills, <span>New York City 90210." anchor nil nil [24897 24900])
+                            ("3481 Melrose Place, Beverly Hills, <span>New York City 90210." anchor nil nil [25096 25099])
+                            ("3481 Melrose Place, Beverly Hills, <span>New York City 90210." anchor nil nil [25295 25298])
+                            ("3481 Melrose Place, Beverly Hills, <span>New York City 90210." anchor nil nil [25494 25497])
+                            ("3481 Melrose Place, Beverly Hills, <span>New York City 90210." anchor nil nil [25693 25696])
+                            ("info@example1.com" anchor nil nil [26631 26634])
+                            ("info@example2.com" anchor nil nil [26699 26702]))                          ) nil [24619 27000]))                      ) nil [7170 27000]))                  ) nil [2377 27000]))              ) nil [1132 27000])
+            ("password-script -->
+	<script type=\"text/javascript\">
+		window.onload = function () {
+			document.getElementById(\"password1\").onchange = validatePassword;
+			document.getElementById(\"password2\").onchange = validatePassword;
+		}
+
+		function validatePassword() {
+			var pass2 = document.getElementById(\"password2\").value;
+			var pass1 = document.getElementById(\"password1\").value;
+			if (pass1 != pass2)
+				document.getElementById(\"password2\").setCustomValidity(\"Passwords Don't Match\");
+			else
+				document.getElementById(\"password2\").setCustomValidity('');
+			//empty string means no validation error
+		}" section nil nil [27000 27071])
+            ("password-script -->
+	<script type=\"text/javascript\">
+		window.onload = function () {
+			document.getElementById(\"password1\").onchange = validatePassword;
+			document.getElementById(\"password2\").onchange = validatePassword;
+		}
+
+		function validatePassword() {
+			var pass2 = document.getElementById(\"password2\").value;
+			var pass1 = document.getElementById(\"password1\").value;
+			if (pass1 != pass2)
+				document.getElementById(\"password2\").setCustomValidity(\"Passwords Don't Match\");
+			else
+				document.getElementById(\"password2\").setCustomValidity('');
+			//empty string means no validation error
+		}" section nil nil [27071 27174])
+            ("window.onload = function () {
+			document.getElementById(\"password1\").onchange = validatePassword;
+			document.getElementById(\"password2\").onchange = validatePassword;
+		}
+
+		function validatePassword() {
+			var pass2 = document.getElementById(\"password2\").value;
+			var pass1 = document.getElementById(\"password1\").value;
+			if (pass1 != pass2)
+				document.getElementById(\"password2\").setCustomValidity(\"Passwords Don't Match\");
+			else
+				document.getElementById(\"password2\").setCustomValidity('');
+			//empty string means no validation error
+		}" section nil nil [27174 27815])
+            ("$(function () {
+
+			var Page = (function () {
+
+				var $navArrows = $('#nav-arrows').hide(),
+					$navDots = $('#nav-dots').hide(),
+					$nav = $navDots.children('span'),
+					$shadow = $('#shadow').hide(),
+					slicebox = $('#sb-slider').slicebox({
+						onReady: function () {
+
+							$navArrows.show();
+							$navDots.show();
+							$shadow.show();
+
+						},
+						onBeforeChange: function (pos) {
+
+							$nav.removeClass('nav-dot-current');
+							$nav.eq(pos).addClass('nav-dot-current');
+
+						}
+					}),
+
+					init = function () {
+
+						initEvents();
+
+					},
+					initEvents = function () {
+
+						// add navigation events
+						$navArrows.children(':first').on('click', function () {
+
+							slicebox.next();
+							return false;
+
+						});
+
+						$navArrows.children(':last').on('click', function () {
+
+							slicebox.previous();
+							return false;
+
+						});
+
+						$nav.each(function (i) {
+
+							$(this).on('click', function (event) {
+
+								var $dot = $(this);
+
+								if (!slicebox.isActive()) {
+
+									$nav.removeClass('nav-dot-current');
+									$dot.addClass('nav-dot-current');
+
+								}
+
+								slicebox.jump(i + 1);
+								return false;
+
+							});
+
+						});
+
+					};
+
+				return {
+					init: init
+				};
+
+			})();
+
+			Page.init();
+
+		});" section nil nil [27815 27852])
+            ("$(function () {
+
+			var Page = (function () {
+
+				var $navArrows = $('#nav-arrows').hide(),
+					$navDots = $('#nav-dots').hide(),
+					$nav = $navDots.children('span'),
+					$shadow = $('#shadow').hide(),
+					slicebox = $('#sb-slider').slicebox({
+						onReady: function () {
+
+							$navArrows.show();
+							$navDots.show();
+							$shadow.show();
+
+						},
+						onBeforeChange: function (pos) {
+
+							$nav.removeClass('nav-dot-current');
+							$nav.eq(pos).addClass('nav-dot-current');
+
+						}
+					}),
+
+					init = function () {
+
+						initEvents();
+
+					},
+					initEvents = function () {
+
+						// add navigation events
+						$navArrows.children(':first').on('click', function () {
+
+							slicebox.next();
+							return false;
+
+						});
+
+						$navArrows.children(':last').on('click', function () {
+
+							slicebox.previous();
+							return false;
+
+						});
+
+						$nav.each(function (i) {
+
+							$(this).on('click', function (event) {
+
+								var $dot = $(this);
+
+								if (!slicebox.isActive()) {
+
+									$nav.removeClass('nav-dot-current');
+									$dot.addClass('nav-dot-current');
+
+								}
+
+								slicebox.jump(i + 1);
+								return false;
+
+							});
+
+						});
+
+					};
+
+				return {
+					init: init
+				};
+
+			})();
+
+			Page.init();
+
+		});" section nil nil [27852 27922])
+            ("$(function () {
+
+			var Page = (function () {
+
+				var $navArrows = $('#nav-arrows').hide(),
+					$navDots = $('#nav-dots').hide(),
+					$nav = $navDots.children('span'),
+					$shadow = $('#shadow').hide(),
+					slicebox = $('#sb-slider').slicebox({
+						onReady: function () {
+
+							$navArrows.show();
+							$navDots.show();
+							$shadow.show();
+
+						},
+						onBeforeChange: function (pos) {
+
+							$nav.removeClass('nav-dot-current');
+							$nav.eq(pos).addClass('nav-dot-current');
+
+						}
+					}),
+
+					init = function () {
+
+						initEvents();
+
+					},
+					initEvents = function () {
+
+						// add navigation events
+						$navArrows.children(':first').on('click', function () {
+
+							slicebox.next();
+							return false;
+
+						});
+
+						$navArrows.children(':last').on('click', function () {
+
+							slicebox.previous();
+							return false;
+
+						});
+
+						$nav.each(function (i) {
+
+							$(this).on('click', function (event) {
+
+								var $dot = $(this);
+
+								if (!slicebox.isActive()) {
+
+									$nav.removeClass('nav-dot-current');
+									$dot.addClass('nav-dot-current');
+
+								}
+
+								slicebox.jump(i + 1);
+								return false;
+
+							});
+
+						});
+
+					};
+
+				return {
+					init: init
+				};
+
+			})();
+
+			Page.init();
+
+		});" section nil nil [27922 29263])
+            ("jQuery(document).ready(function ($) {
+			$('.counter').counterUp({
+				delay: 10,
+				time: 2000
+			});
+		});" section nil nil [29263 29308])
+            ("jQuery(document).ready(function ($) {
+			$('.counter').counterUp({
+				delay: 10,
+				time: 2000
+			});
+		});" section nil nil [29308 29353])
+            ("jQuery(document).ready(function ($) {
+			$('.counter').counterUp({
+				delay: 10,
+				time: 2000
+			});
+		});" section nil nil [29353 29505])
+            ("flexisel -->
+	<script type=\"text/javascript\">
+		$(window).load(function () {
+			$(\"#flexiselDemo1\").flexisel({
+				visibleItems: 4,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: {
+					portrait: {
+						changePoint: 480,
+						visibleItems: 1
+					},
+					landscape: {
+						changePoint: 640,
+						visibleItems: 2
+					},
+					tablet: {
+						changePoint: 768,
+						visibleItems: 2
+					}
+				}
+			});
+
+		});" section nil nil [29505 29594])
+            ("$(window).load(function () {
+			$(\"#flexiselDemo1\").flexisel({
+				visibleItems: 4,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+				responsiveBreakpoints: {
+					portrait: {
+						changePoint: 480,
+						visibleItems: 1
+					},
+					landscape: {
+						changePoint: 640,
+						visibleItems: 2
+					},
+					tablet: {
+						changePoint: 768,
+						visibleItems: 2
+					}
+				}
+			});
+
+		});" section nil nil [29594 30196])
+            ("//menu -->
+	<!-- for bootstrap working -->
+	<script src=\"js/bootstrap.js\">" section nil nil [30196 30293])
+            ("//for bootstrap working -->
+	<!-- start-smoth-scrolling -->
+	<script type=\"text/javascript\" src=\"js/move-top.js\">" section nil nil [30293 30400])
+            ("jQuery(document).ready(function ($) {
+			$(\".scroll\").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});" section nil nil [30400 30463])
+            ("jQuery(document).ready(function ($) {
+			$(\".scroll\").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});" section nil nil [30463 30524])
+            ("jQuery(document).ready(function ($) {
+			$(\".scroll\").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});" section nil nil [30524 30843])
+            ("$(document).ready(function () {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});" section nil nil [30843 31235]))          
+      :file "index.html"
+      :pointmax 31235
+      :unmatched-syntax nil))
+  :file "!etc!nginx!html!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

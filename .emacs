@@ -21,7 +21,7 @@
 (menu-bar-mode 0)
 ;; (scroll-bar-mode 0)
 ;; 高亮当前行
-(global-hl-line-mode 1)
+(global-hl-line-mode 0)
 ;; 设置字体
 ;;(set-default-font "Monaco-14")
 ;; 修改窗口title
@@ -65,6 +65,14 @@
 ;; 配置ecb
 (add-to-list 'load-path "~/.emacs.d/site-lisp/ecb")
 (require 'ecb)
+
+;; configuration for mmm mode
+(add-to-list 'load-path "~/.emacs.d/site-lisp/mmm-mode")
+(require 'mmm-mode)
+
+;; configuration for vue mode
+(add-to-list 'load-path "~/.emacs.d/site-lisp/vue-mode")
+(require 'vue-mode)
 
 
 ;; Emcas开发环境工具集合
@@ -242,3 +250,17 @@ the mru bookmark stack."
 (global-set-key (kbd "M-m") 'vi-open-next-line) ;C-m直接跳转到新行
 (global-set-key [(f8)] 'open-eshell-other-buffer) ;在新buffer打开一个eshell
 (global-set-key [f7] 'indent-whole)	;格式化整个文件
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (mmm-mode vue-mode web-mode web w3m tide theme-magic rainbow-mode rainbow-delimiters pyim paredit nyan-mode highlight-blocks elpy electric-spacing ecb color-theme-sanityinc-solarized color-theme))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

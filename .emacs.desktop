@@ -2,30 +2,30 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Mon Jul 20 12:45:47 2020
+;; Created Sun Nov 15 20:05:41 2020
 ;; Desktop file format version 208
-;; Emacs version 26.3
+;; Emacs version 26.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (24341 8571 724305 269000) (desktop . "208") "famouscat@famouscat-Pro" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-ADBO-Source Code Pro-normal-normal-normal-*-28-*-*-*-m-0-iso10646-1") (font-parameter . "Source Code Pro 10") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "black") (background-color . "white") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . light) (cursor-color . "black") (sticky) (environment) (modeline . t) (unsplittable) (frameset--id . "1B4D-B2F4-1163-69D9") (frameset--mini t . t) (display . ":0.0") (icon-name) (explicit-name) (height . 28) (width . 111) (left . 0) (top . 34)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 144) (min-pixel-width . 170) (min-pixel-height-ignore . 72) (min-pixel-width-ignore . 136) (min-pixel-height-safe . 36) (min-pixel-width-safe . 34)) leaf (pixel-width . 1920) (pixel-height . 986) (total-width . 112) (total-height . 27) (normal-height . 1.0) (normal-width . 1.0) (buffer ".emacs" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 4) (scroll-bars nil 1 t nil 0 t) (vscroll . 0) (dedicated) (point . 499) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (24497 6549 718828 379000) (desktop . "208") "root@VM-0-6-debian" nil nil ((((minibuffer . t) (tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (tool-bar-lines . 0) (menu-bar-lines . 0) (background-color . "unspecified-bg") (font . "tty") (height . 56) (width . 211) (modeline . t) (unsplittable) (frameset--id . "9AFB-571B-D1FD-6730") (frameset--mini t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 211) (pixel-height . 55) (total-width . 211) (total-height . 55) (normal-height . 1.0) (normal-width . 1.0) (buffer "nginx.conf" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("quick		" "tool"))
+(setq search-ring nil)
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/.emacs"))
+(setq file-name-history nil)
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/famouscat/.emacs"
-  ".emacs"
-  'emacs-lisp-mode
-  '(eldoc-mode linum-mode rainbow-delimiters-mode)
-  499
-  '(7463 nil)
+  "/etc/nginx/conf/nginx.conf"
+  "nginx.conf"
+  'conf-space-mode
+  '(linum-mode)
+  1
+  '(nil nil)
   nil
   nil
-  '((buffer-display-time 24341 8536 767373 295000) (buffer-file-coding-system . utf-8-unix))
-  '((mark-ring (502 7128 2824))))
+  '((buffer-display-time 24497 6523 864762 598000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 
