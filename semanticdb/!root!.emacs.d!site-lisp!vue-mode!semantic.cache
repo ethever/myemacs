@@ -3,15 +3,14 @@
 (semanticdb-project-database-file "semanticdb-project-database-file"
   :tables
   (list
-
     (semanticdb-table "semanticdb-table"
       :major-mode vue-mode
       :tags nil
-      :file ".emacs"
-      :pointmax 8406
-      :fsize 9689
-      :lastmodtime '(24497 8745 722387 543000)
+      :file "vue-mode.el"
+      :pointmax 3670
+      :fsize 3670
+      :lastmodtime '(24499 21493 62650 542000)
       :unmatched-syntax nil))
-  :file "!root!semantic.cache"
+  :file "!root!.emacs.d!site-lisp!vue-mode!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

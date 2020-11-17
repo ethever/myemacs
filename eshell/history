@@ -19,11 +19,6 @@ lessc index.less index.css
 lessc index.less index.css 
 lessc index.less index.css 
 lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
-lessc index.less index.css 
 cd ../css/
 lessc index.less index.css 
 lessc  post.less post.css 
@@ -126,3 +121,8 @@ cd ..
 ls -la
 git clone https://github.com/purcell/mmm-mode.git
 ls -la
+ls -la
+cd /root/.emacs.d/
+l s-la
+ls -la
+git add .

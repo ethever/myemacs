@@ -1,0 +1,34 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode vue-html-mode
+      :tags 
+        '( ("// @ is an alias to /src
+import HelloWorld from '@/components/HelloWorld.vue'
+
+export default {
+  name: 'Home',
+  components: {
+    HelloWorld
+  }
+}" section nil nil [156 324]))          
+      :file "Home.vue"
+      :pointmax 324
+      :fsize 323
+      :lastmodtime '(24497 3525 48157 978000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode vue-html-mode
+      :tags 
+        '( ("This is an about page" section nil nil [38 90]))          
+      :file "About.vue"
+      :pointmax 90
+      :fsize 89
+      :lastmodtime '(24497 10742 280033 826000)
+      :unmatched-syntax nil))
+  :file "!root!program!buble-web!src!views!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

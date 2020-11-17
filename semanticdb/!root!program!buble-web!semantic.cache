@@ -1,0 +1,40 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "package.json"
+      :pointmax 582
+      :fsize 581
+      :lastmodtime '(24497 11102 889455 790000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "babel.config.js"
+      :pointmax 74
+      :fsize 73
+      :lastmodtime '(24497 3525 48157 978000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file ".eslintrc.js"
+      :pointmax 350
+      :fsize 349
+      :lastmodtime '(24497 3544 20020 165000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "vue.config.js"
+      :pointmax 70
+      :fsize 69
+      :lastmodtime '(24497 11062 129747 187000)
+      :unmatched-syntax '(($EOI 8 . 8))))
+  :file "!root!program!buble-web!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

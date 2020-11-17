@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "index.js"
+      :pointmax 140
+      :fsize 139
+      :lastmodtime '(24497 3525 48157 978000)
+      :unmatched-syntax '((BRACE_BLOCK 8 . 23) (VARIABLE 24 . 28) (STRING 29 . 35) (VARIABLE 37 . 43) (VARIABLE 44 . 51) (VARIABLE 52 . 63) (PAREN_BLOCK 63 . 139))))
+  :file "!root!program!buble-web!src!store!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

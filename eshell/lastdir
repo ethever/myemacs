@@ -1,5 +1,3 @@
-/root/test/web/public/js/modules
-/root/test/web/public/js/modules
 /usr/share
 /root/test/web/public/css/tools
 /root/test/web/server/test
@@ -31,3 +29,5 @@
 /root/.emacs.d/site-lisp
 /root/.emacs.d/site-lisp/vue-mode
 /root/.emacs.d/site-lisp
+/root/program/buble-web/src/views
+/root/.emacs.d

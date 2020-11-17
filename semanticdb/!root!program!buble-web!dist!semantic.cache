@@ -1,0 +1,20 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("test" section nil nil [217 533])
+            ("We're sorry but test doesn't work properly without JavaScript enabled. Please enable it to continue." section nil nil [533 697])
+            ("" section nil nil [697 750])
+            ("" section nil nil [750 807]))          
+      :file "index.html"
+      :pointmax 807
+      :fsize 806
+      :lastmodtime '(24497 4074 960174 634000)
+      :unmatched-syntax nil))
+  :file "!root!program!buble-web!dist!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

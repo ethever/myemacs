@@ -1,0 +1,72 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode vue-mode
+      :tags 
+        '( ("{{ msg }}" section (:members 
+              ( ("vue-cli documentation" anchor nil nil [171 174])
+                ("Installed CLI Plugins" section nil nil [274 978])
+                ("Essential Links" section (:members 
+                  ( ("Core Docs" anchor nil nil [1022 1025])
+                    ("Forum" anchor nil nil [1110 1113])
+                    ("Community Chat" anchor nil nil [1200 1203])
+                    ("Twitter" anchor nil nil [1298 1301])
+                    ("News" anchor nil nil [1392 1395]))                  ) nil [978 1484])
+                ("Ecosystem" section (:members 
+                  ( ("vue-router" anchor nil nil [1522 1525])
+                    ("vuex" anchor nil nil [1618 1621])
+                    ("vue-devtools" anchor nil nil [1706 1709])
+                    ("vue-loader" anchor nil nil [1830 1833])
+                    ("awesome-vue" anchor nil nil [1930 1933]))                  ) nil [1484 2061]))              ) nil [38 2061])
+            ("export default {
+  name: 'HelloWorld',
+  props: {
+    msg: String
+  }
+}" section nil nil [2061 2404]))          
+      :file "HelloWorld.vue"
+      :pointmax 2404
+      :fsize 2403
+      :lastmodtime '(24497 11858 380063 212000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode vue-mode
+      :tags 
+        '( (".topbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.1);
+    background: #ff6666;
+    padding: 20px 38px 20px 38px;
+    .icon-container{
+	.icon{
+	    font-size: 1.3em;
+	    font-weight: 700;
+	}
+    }
+    a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	height: 100%;
+	&.router-link-exact-active {
+	    color: #2c3e50;
+	    background: #cccccc22;
+	}
+	&:not(:first-child){
+	    margin-left: 16px;
+	}
+    }
+}" section nil nil [384 1038]))          
+      :file "TopBar.vue"
+      :pointmax 1038
+      :fsize 1037
+      :lastmodtime '(24499 21031 401974 198000)
+      :unmatched-syntax nil))
+  :file "!root!program!buble-web!src!components!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

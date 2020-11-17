@@ -1,6 +1,7 @@
 ; ---------------------------------------------------------------------------------------------------------
 ;; 系统设置
 ;; 保存桌面状态
+(load-theme 'manoj-dark t)
 (load "desktop")
 (desktop-load-default)
 (desktop-read)
@@ -74,6 +75,12 @@
 (add-to-list 'load-path "~/.emacs.d/site-lisp/vue-mode")
 (require 'vue-mode)
 
+;; configuration for web mode
+(add-to-list 'load-path "~/.emacs.d/site-lisp/web-mode")
+(require 'web-mode)
+(add-hook 'web-mode-hook 'flycheck-mode)
+(add-hook 'c-mode-hook 'rainbow-delimiters-mode)
+(add-hook 'c-mode-hook 'electric-pair-mode) ;双括号模式
 
 ;; Emcas开发环境工具集合
 (require 'cedet)
