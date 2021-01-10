@@ -8,7 +8,7 @@
 (add-hook 'kill-emacs-hook
 	  '(lambda()(desktop-save "~/.emacs.d/")))
 ;; 将备份文件放一起
-(setq backup-directory-alist (quote (("." . "/root/.emacs-backups"))))
+(setq backup-directory-alist (quote (("." . "~/.emacs.d/.emacs-backups"))))
 ;; 关闭启动欢迎界面
 (setq inhibit-startup-message t)
 ;; 显示时间
