@@ -1,0 +1,13 @@
+# 忽略桌面状态文件
+.emacs-desktop-status/
+
+# 忽略书签文件
+bookmarks
+
+# 忽略备份文件
+.emacs-backups/
+*~/
+
+
+# 忽略自动保存文件
+auto-save-list/
