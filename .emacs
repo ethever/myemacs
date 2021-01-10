@@ -1,4 +1,6 @@
-; ---------------------------------------------------------------------------------------------------------
+
+
+					; ---------------------------------------------------------------------------------------------------------
 ;; 系统设置
 
 ;; 加载主题
@@ -16,11 +18,28 @@
 ;; 使用一个很大的kill ring
 (setq kill-ring-max 1024)
 
+;; 撤销
+(setq undo-outer-limit 5000)
+
+;; 光标在行尾移动时保持
+(setq track-eol t)
+
 ;;关闭启动时闪屏
-(setq inhibit0startup-message t)
 ;; Make *scratch* buffer blank
 (setq initial-scratch-message nil)
 ;; (setq initial-buffer-choice user-init-file)
+
+;; 语法高亮
+(global-font-lock-mode t)
+
+;; 光标不闪
+(blink-cursor-mode -1)
+
+;; 显示列号
+(column-number-mode t)
+
+;;默认使用text mode
+(setq default-major-mode 'text-mode)
 
 ;; 保存桌面状态
 (add-to-list 'load-path' "~/.emacs.d/site-lisp/desktop")
@@ -29,7 +48,7 @@
 (desktop-load-default)
 (desktop-read)
 (add-hook 'kill-emacs-hook
-	  '(lambda()(desktop-save "~/.emacs.d/.emacs-desktop-status/")))
+	  '(lambda()(desktop-save "~/.emacs.d/")))
 ;; 将备份文件放一起
 (setq backup-directory-alist (quote (("." . "~/.emacs.d/.emacs-backups/"))))
 ;; 关闭启动欢迎界面
@@ -40,14 +59,14 @@
 (global-linum-mode 1)
 ;; how to display line number
 (setq linum-format "%d")
-;; 隐藏菜单栏, 工具栏, 滚动条
+;; 隐藏菜单栏, 工具栏
 (tool-bar-mode 0)			
 (menu-bar-mode 0)
-;; (scroll-bar-mode 0)
+
+;;不显示滚动滑块
+(scroll-bar-mode 0)
 ;; 高亮当前行
 (global-hl-line-mode 0)
-;; 彩虹括号
-(rainbow-delimiters-mode t)
 ;; 设置字体
 ;;(set-default-font "Monaco-14")
 ;; 修改窗口title
@@ -254,6 +273,13 @@ the mru bookmark stack."
 ;; (require 'slime)
 ;; (slime-setup)
 ;; (slime-setup '(slime-fancy))
+(add-hook 'lisp-mode-hook 'rainbow-delimiters-mode)
+
+
+;;--------------------------------------------------
+;; Setup for Emacs lisp
+(add-hook 'emacs-lisp-mode-hook 'rainbow-delimiters-mode)
+
 
 
 ;; ------------------------------------------------------------------------------------------------------
@@ -304,3 +330,4 @@ the mru bookmark stack."
 (setq uniquify-buffer0name0style 'post-forward-angle-brackets)
 (setq uniquify-separator "/")
 (setq uniquify-after-kill-buffer-p t)
+

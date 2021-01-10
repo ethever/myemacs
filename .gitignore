@@ -1,5 +1,6 @@
 # 忽略桌面状态文件
 .emacs-desktop-status/
+.emacs.desktop
 
 # 忽略书签文件
 bookmarks

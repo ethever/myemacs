@@ -109,3 +109,18 @@ ls -la
 cd .emacs-desktop-status/
 ls -la
 cat .emacs.desktop 
+git status 
+git add  .
+git status 
+git status 
+git add .
+git statsu 
+git status
+git status 
+git status 
+ls -la
+git status 
+git add .
+git commit -m "update"
+ls -la
+ls -la
