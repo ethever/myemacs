@@ -1,14 +1,37 @@
 ; ---------------------------------------------------------------------------------------------------------
 ;; 系统设置
-;; 保存桌面状态
+
+;; 加载主题
 (load-theme 'manoj-dark t)
+
+;; 显示消息的超时时间
+(setq minibuffer-message-timeout 1)
+
+;; 禁止显示鼠标指针
+(setq void-text-area-pointer nil)
+
+;; 显示在某函数体内部
+(which-function-mode t)
+
+;; 使用一个很大的kill ring
+(setq kill-ring-max 1024)
+
+;;关闭启动时闪屏
+(setq inhibit0startup-message t)
+;; Make *scratch* buffer blank
+(setq initial-scratch-message nil)
+;; (setq initial-buffer-choice user-init-file)
+
+;; 保存桌面状态
+(add-to-list 'load-path' "~/.emacs.d/site-lisp/desktop")
 (load "desktop")
+
 (desktop-load-default)
 (desktop-read)
 (add-hook 'kill-emacs-hook
-	  '(lambda()(desktop-save "~/.emacs.d/")))
+	  '(lambda()(desktop-save "~/.emacs.d/.emacs-desktop-status/")))
 ;; 将备份文件放一起
-(setq backup-directory-alist (quote (("." . "~/.emacs.d/.emacs-backups"))))
+(setq backup-directory-alist (quote (("." . "~/.emacs.d/.emacs-backups/"))))
 ;; 关闭启动欢迎界面
 (setq inhibit-startup-message t)
 ;; 显示时间
@@ -23,15 +46,19 @@
 ;; (scroll-bar-mode 0)
 ;; 高亮当前行
 (global-hl-line-mode 0)
+;; 彩虹括号
+(rainbow-delimiters-mode t)
 ;; 设置字体
 ;;(set-default-font "Monaco-14")
 ;; 修改窗口title
 (setq frame-title-format "famouscat@%b")
 
-(setq scroll-margin 3 scroll-conservatively 10000)
 ;;防止页面滚动时跳动， scroll-margin 3 可以在靠近屏幕边沿3行时就开始滚动，可以很好的看到上下文。
-(setq mouse-avoidance-mode 'animate)
+(setq scroll-margin 3 scroll-conservatively 10000)
+
 ;;光标靠近鼠标指针时，让鼠标指针自动让开，别挡住视线。
+(setq mouse-avoidance-mode 'animate)
+
 (setq-default kill-whole-line t)
 ;; 在行首 C-k 时，同时删除该行。
 ;;(setq auto-image-file-mode t)
@@ -271,3 +298,9 @@ the mru bookmark stack."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+
+;; 同名buffer加上路径
+(setq uniquify-buffer0name0style 'post-forward-angle-brackets)
+(setq uniquify-separator "/")
+(setq uniquify-after-kill-buffer-p t)
