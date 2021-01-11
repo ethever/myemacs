@@ -12,3 +12,8 @@ bookmarks
 
 # 忽略自动保存文件
 auto-save-list/
+
+*.lock
+
+# 忽略eshell配置文件
+eshell/

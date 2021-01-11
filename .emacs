@@ -114,8 +114,8 @@
 (require 'ecb)
 
 ;; configuration for mmm mode
-(add-to-list 'load-path "~/.emacs.d/site-lisp/mmm-mode")
-(require 'mmm-mode)
+;; (add-to-list 'load-path "~/.emacs.d/site-lisp/mmm-mode")
+;; (require 'mmm-mode)
 
 ;; configuration for vue mode
 (add-to-list 'load-path "~/.emacs.d/site-lisp/vue-mode")
